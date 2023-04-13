@@ -1,0 +1,199 @@
+﻿<Page x:Class="NexusPOS_wpf.AccountsPayable"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NexusPOS_wpf"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="500"
+      Title="AccountsPayable" Loaded="Page_Loaded">
+
+    <Grid>
+        <!--<Label Content="customer"></Label>-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Margin="1">
+            <Border BorderBrush="Gray" BorderThickness="1" Margin="1">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="45"></ColumnDefinition>
+                        <ColumnDefinition Width="45"></ColumnDefinition>
+                        <ColumnDefinition Width="45"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"   Name="MenuAddPurchase" Click="MenuAddPurchase_Click" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                        <Button.Background>
+                            <ImageBrush ImageSource="imges/addicon.png" Stretch="None" />
+                        </Button.Background>
+                    </Button>
+                    <Button Grid.Column="1"   Name="MenuEditC" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}" >
+                        <Button.Background>
+                            <ImageBrush ImageSource="imges/editicon.png" Stretch="None"/>
+                        </Button.Background>
+                    </Button>
+                    <Button Grid.Column="2"   Name="MenuDeleteC" Style="{DynamicResource ButtonWithNoMouseOver}" BorderBrush="{x:Null}">
+                        <Button.Background>
+                            <ImageBrush ImageSource="imges/deleteicon.png" Stretch="None"/>
+                        </Button.Background>
+                    </Button>
+                    <Button Grid.Column="3" Content="Write Off" Name="MenuWriteoff" ></Button>
+                    <Button Grid.Column="4"  Content="Print" Name="MenuPrint" ></Button>
+                    <Button Grid.Column="5"  Content="Save" Name="MenuSave" ></Button>
+                </Grid>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="1" Margin="1">
+            <Border BorderBrush="Gray" BorderThickness="1" Margin="1">
+                <Grid>
+                    <TabControl FontSize="25">
+                        <TabItem Header="Purchase" GotFocus="TabItem_GotFocus">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="30"></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition></ColumnDefinition>
+                                            <ColumnDefinition></ColumnDefinition>
+                                            <ColumnDefinition></ColumnDefinition>
+                                            <ColumnDefinition></ColumnDefinition>
+                                            <ColumnDefinition></ColumnDefinition>
+                                        </Grid.ColumnDefinitions>
+                                        <Button Grid.Column="0" Name="btnPurchaeall" Content="All Purchase" FontSize="15" FontWeight="Bold"></Button>
+                                        <Button Grid.Column="1" Name="btnPurchaeRecent"  Content="Recent" FontSize="15" FontWeight="Bold"></Button>
+                                        <Button Grid.Column="2"  Name="btnPurchaeUnpaid" Content="Unpaid" FontSize="15" FontWeight="Bold"></Button>
+                                        <Button Grid.Column="3"  Name="btnPurchaePaid" Content="Paid" FontSize="15" FontWeight="Bold"></Button>
+                                    </Grid>
+                                </Grid>
+                                <Grid Grid.Row="1">
+                                    <DataGrid FontSize="15"  RowHeaderWidth= "40" HorizontalScrollBarVisibility="Auto" CanUserAddRows="False" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" ColumnWidth="*"  VerticalAlignment="Top"  Name="datagridPurchase" Margin="2" AlternatingRowBackground="LightCyan" AutoGenerateColumns="False" SelectionChanged="datagridPurchase_SelectionChanged">
+                                        <DataGrid.Columns >
+                                            <DataGridTextColumn Width="20" Binding="{Binding Path=DEl}" Header="" />
+                                            <DataGridTextColumn Width="40" Binding="{Binding Path=PurchaseRegisterID }" Header="ID" />
+                                            <DataGridTextColumn Width="3*" Binding="{Binding Path=PersonName}"  FontWeight="Bold" Header="Party Name"/>
+                                            <DataGridTextColumn  Binding="{Binding Path=POnumber}" Header="PO Number"/>
+                                            <DataGridTextColumn  Header="Total Amount "  Binding="{Binding Path=TotalPO}"/>
+                                            <DataGridTextColumn  Header="Paid Amount"  Binding="{Binding Path=PaidPO}" />
+                                            <DataGridTextColumn  Header="Paid Date" Binding="{Binding Path=PaidDate}" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                </Grid>
+
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Add Expenses">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="60"></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="45"></ColumnDefinition>
+                                            <ColumnDefinition Width="45" ></ColumnDefinition>
+                                            <ColumnDefinition Width="45"></ColumnDefinition>
+                                            <ColumnDefinition Width="*" ></ColumnDefinition>
+                                            <ColumnDefinition ></ColumnDefinition>
+                                            <ColumnDefinition ></ColumnDefinition>
+                                            <ColumnDefinition ></ColumnDefinition>
+                                            <ColumnDefinition ></ColumnDefinition>
+                                        </Grid.ColumnDefinitions>
+                                    <Button Grid.Column="0"   Name="AddExpense" Click="AddExpense_Click" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                                        <!--<Button.Background>
+                                            <ImageBrush ImageSource="imges/addicon.png" Stretch="None" />
+                                        </Button.Background>-->
+                                    </Button>
+                                    <Button Grid.Column="1" IsEnabled="False"   Name="EditExpense" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}" >
+                                        <Button.Background>
+                                            <ImageBrush ImageSource="imges/editicon.png" Stretch="None"/>
+                                        </Button.Background>
+                                    </Button>
+                                    <Button Grid.Column="2"   Name="DeleteExpense" Click="DeleteExpense_Click" Style="{DynamicResource ButtonWithNoMouseOver}" BorderBrush="{x:Null}">
+                                        <Button.Background>
+                                            <ImageBrush ImageSource="imges/deleteicon.png" Stretch="None"/>
+                                        </Button.Background>
+                                    </Button>
+                                        <Grid Grid.Column="3">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition></RowDefinition>
+                                                <RowDefinition></RowDefinition>
+                                            </Grid.RowDefinitions>
+                                            <Label FontWeight="Bold" Grid.Row="0" Content="Description " FontSize="15"></Label>
+                                            <TextBox IsEnabled="True" Grid.Row="1" Name="txtDescriptionExpese" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" ></TextBox>
+                                        </Grid>
+                                        <Grid Grid.Column="4">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition></RowDefinition>
+                                                <RowDefinition></RowDefinition>
+                                            </Grid.RowDefinitions>
+                                            <Label FontWeight="Bold" Grid.Row="0" Content="Amount" FontSize="15"></Label>
+                                            <TextBox IsEnabled="True" Grid.Row="1" Name="txtAmount" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" ></TextBox>
+                                        </Grid>
+                                        <Grid Grid.Column="5">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition></RowDefinition>
+                                                <RowDefinition></RowDefinition>
+                                            </Grid.RowDefinitions>
+                                            <Label FontWeight="Bold" Grid.Row="0" Content="Date Paid " FontSize="15"></Label>
+                                            <DatePicker Name="dtpickerExpensePaidDate" Grid.Row="1" FontSize="15" FirstDayOfWeek="Saturday" Background="{x:Null}"  />
+                                        </Grid>
+                                        <Grid Grid.Column="6">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition></RowDefinition>
+                                                <RowDefinition></RowDefinition>
+                                            </Grid.RowDefinitions>
+                                            <Label FontWeight="Bold" Grid.Row="0" Content="Month Of " FontSize="15"></Label>
+                                            <ComboBox Name="ComboSelectMonth"  FontSize="15" Grid.Row="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" >
+                                                <ComboBoxItem Content="Jan"/>
+                                                <ComboBoxItem Content="Feb"/>
+                                                <ComboBoxItem Content="Mar" IsSelected="True"/>
+                                                <ComboBoxItem Content="Apr"/>
+                                                <ComboBoxItem Content="May"/>
+                                                <ComboBoxItem Content="June"/>
+                                                <ComboBoxItem Content="July"/>
+                                                <ComboBoxItem Content="Aug"/>
+                                                <ComboBoxItem Content="Sep"/>
+                                                <ComboBoxItem Content="Oct"/>
+                                                <ComboBoxItem Content="Nov"/>
+                                                <ComboBoxItem Content="Dec"/>
+                                            </ComboBox>
+                                        </Grid>
+                                        <Grid Grid.Column="7">
+                                            <Button Grid.Column="0"   Name="SaveExpense" Click="SaveExpense_Click" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                                                <Button.Background>
+                                                    <ImageBrush ImageSource="imges/addicon.png" Stretch="None" />
+                                                </Button.Background>
+                                            </Button>
+                                            <!--<Button Name="SaveExpense" Click="SaveExpense_Click" Content="Save"  FontSize="15" FontWeight="Bold"  ></Button>-->
+                                        </Grid>
+                                    </Grid>
+                                </Grid>
+                                <Grid Grid.Row="1">
+                                    <DataGrid FontSize="15"  RowHeaderWidth= "40" HorizontalScrollBarVisibility="Auto" CanUserAddRows="False" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" ColumnWidth="*"  VerticalAlignment="Top"  Name="datagridAddExpense" Margin="2" AlternatingRowBackground="LightCyan" AutoGenerateColumns="False" SelectionChanged="datagridAddExpense_SelectionChanged">
+                                        <DataGrid.Columns >
+                                            <DataGridTextColumn Width="20" Binding="{Binding Path=DEl}" Header="" />
+                                            <DataGridTextColumn Width="40" Binding="{Binding Path=ExpenseID }" Header="ID" />
+                                            <DataGridTextColumn Width="3*" Binding="{Binding Path=ExpenseDescription}"  FontWeight="Bold" Header="Description"/>
+                                            <DataGridTextColumn  Binding="{Binding Path=PaidAmount}" Header="Amount"/>
+                                            <DataGridTextColumn  Header="Date"  Binding="{Binding Path=ExpenseDate}"/>
+                                            <DataGridTextColumn  Header="Month"  Binding="{Binding Path=ExpenseofMonth}" />
+                                            <DataGridTextColumn  Header="EnterON" Binding="{Binding Path=ExpenseEnterOn}" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                </Grid>
+                            </Grid>
+                        </TabItem>
+                        
+                    </TabControl>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</Page>

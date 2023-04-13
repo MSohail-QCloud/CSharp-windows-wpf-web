@@ -1,0 +1,214 @@
+﻿<Page x:Class="NexusPOS_wpf.W2NewSale"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NexusPOS_wpf"
+      mc:Ignorable="d" 
+      d:DesignHeight="768" d:DesignWidth="1366"
+      Title="W2NewSale" Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="320"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Border BorderBrush="Gray" BorderThickness="1">
+                <WrapPanel>
+                    <Label Content="Bill Number : " FontSize="20" Margin="20,0,0,0"></Label>
+                    <Label FontSize="20" Name="lblBillnumber"></Label>
+                    <Label Content="Customer ID : " FontSize="20" Margin="50,0,0,0"></Label>
+                    <Label FontSize="20" Name="lblCustomerID"></Label>
+                    <Label Content="Previouse Balance : " FontSize="20" Margin="50,0,0,0"></Label>
+                    <Label FontSize="20" Name="lblPreviouseBalance"></Label>
+                </WrapPanel>
+            </Border>
+            
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition Width="50"></ColumnDefinition>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Customer :"></Label>
+            <ComboBox FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Name="combCustomerName" Margin="3" Grid.Column="1" DropDownClosed="combCustomerName_DropDownClosed"   ></ComboBox>
+            <Grid Grid.Column="2" Margin="2">
+                <Button Content="+" Name="btnAddPerson" Click="btnAddPerson_Click" FontSize="25"   Grid.Column="2" Background="#FF13E630" FontWeight="Bold" >
+                </Button>
+            </Grid>
+            <Label Grid.Column="3" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Phone :"></Label>
+            <TextBox IsEnabled="False" Name="txtPhoneCustomer" Grid.Column="4" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Margin="3,3,80,3" SelectionChanged="txtPhoneCustomer_SelectionChanged" ></TextBox>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Border BorderBrush="Black" Grid.Column="0" BorderThickness="1">
+                <Grid Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition Height="3*"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" Content="New Order" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" FontWeight="Bold"></Label>
+                    <Grid Grid.Row="1" Margin="2">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <Label Content="Size :" FontSize="15" FontWeight="Bold" Margin="5,0,15,0"></Label>
+                            <Label Content="Width =" FontSize="15" FontWeight="Bold" Margin="5,0,5,0"></Label>
+                            <TextBox Name="txtSizeWidth" Width="100" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" TextChanged="txtSizeWidth_TextChanged" PreviewKeyDown="txtSizeWidth_PreviewKeyDown"></TextBox>
+                            <Label Content="Length =" FontSize="15" FontWeight="Bold"></Label>
+                            <TextBox Name="txtSizeLength" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="100" TextChanged="txtSizeLength_TextChanged"></TextBox>
+                            <Label Content="Total Size=" FontSize="15" FontWeight="Bold"></Label>
+                            <TextBox IsEnabled="False" Name="txtSizetotal" Text="0" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="100"></TextBox>
+                        </WrapPanel>
+                    </Grid>
+                    <Grid Grid.Row="2" Margin="2">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <Label Content="Item Description :" FontSize="15" FontWeight="Bold" Margin="5,0,15,0"></Label>
+                            <TextBox FontSize="15" Name="txtItemDescription" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="470"></TextBox>
+                        </WrapPanel>
+                    </Grid>
+                    <Grid Grid.Row="3" Margin="2">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <Label Content="Qty =" FontSize="15" FontWeight="Bold" Margin="5,0,5,0"></Label>
+                            <TextBox Name="txtQty" Width="120" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" TextChanged="txtQty_TextChanged"></TextBox>
+                            <Label Content="Rate =" FontSize="15" FontWeight="Bold"></Label>
+                            <TextBox Name="txtRate" Width="120" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" TextChanged="txtRate_TextChanged"></TextBox>
+                            <Label Content="Total =" FontSize="15" FontWeight="Bold"></Label>
+                            <TextBox IsEnabled="False" Name="txtTotal" Width="120" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" ></TextBox>
+                        </WrapPanel>
+                    </Grid>
+                    <Grid Grid.Row="4" Margin="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <WrapPanel HorizontalAlignment="Center" Grid.Row="0">
+                                <Label FontWeight="Bold" Content="Labour = " FontSize="15"></Label>
+                                <TextBox Name="txtLabourCharges" Width="200"  Margin="2" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" TextChanged="txtLabourCharges_TextChanged"></TextBox>
+                            </WrapPanel>
+                            <WrapPanel HorizontalAlignment="Center" Grid.Row="1">
+                                <Label FontWeight="Bold" Content="Design = " FontSize="15"></Label>
+                                <TextBox Name="txtDesignCharges" Width="200"  Margin="2" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" TextChanged="txtDesignCharges_TextChanged" ></TextBox>
+                            </WrapPanel>
+                            <WrapPanel HorizontalAlignment="Center" Grid.Row="2">
+                                <Label FontWeight="Bold" Content="Positive =" FontSize="15"></Label>
+                                <TextBox Name="txtPositiveCharges" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="200"  Margin="2" TextChanged="txtPositiveCharges_TextChanged"></TextBox>
+                            </WrapPanel>
+                        </Grid>
+                        <Grid Grid.Column="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <WrapPanel HorizontalAlignment="Center" Grid.Row="1">
+                                <Label FontWeight="Bold" Content="Delivery Date :  " FontSize="15"></Label>
+                                <DatePicker Name="dtpickerDeliveryDate" Width="195" FirstDayOfWeek="Saturday" Background="{x:Null}"  />
+                            </WrapPanel>
+                            <WrapPanel HorizontalAlignment="Center" Grid.Row="2">
+                                <Label FontWeight="Bold" Content="Total amount = " FontSize="15"></Label>
+                                <TextBox IsEnabled="False" Name="txtTotalAmount" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="200"  Margin="2"></TextBox>
+                            </WrapPanel>
+                        </Grid>
+
+
+                    </Grid>
+                    <Grid Grid.Row="5">
+                        <Button Name="SaveItem" Click="SaveItem_Click" Content="Save" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,20,0" FontSize="15" FontWeight="Bold" Width="100"></Button>
+                        <Button Name="btnRefresh" Click="btnRefresh_Click" Content="Refresh" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,20,0" FontSize="15" FontWeight="Bold" Width="100"></Button>
+                    </Grid>
+                </Grid>
+            </Border>
+            <Border BorderBrush="Black" Grid.Column="1" BorderThickness="1">
+                <Grid Grid.Column="2">
+                    
+                </Grid>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="3" Margin="2" Name="Datagridbill" >
+            <!--<ListView Name = "listViewBill">
+                <ListView.View>
+                    <GridView >
+                <GridViewColumn DisplayMemberBinding="{Binding Path=DEl}" Header="" />
+                <GridViewColumn DisplayMemberBinding="{Binding Path=Qty}"   Header="Qty"/>
+                <GridViewColumn DisplayMemberBinding="{Binding Path=des}" Header="Item Description"/>
+                <GridViewColumn DisplayMemberBinding="{Binding Path=width}" Header="Width"/>
+                <GridViewColumn  Header="Length"  DisplayMemberBinding="{Binding Path=length}"/>
+                <GridViewColumn  Header="Total Size"  DisplayMemberBinding="{Binding Path=TotalSize}"/>
+                <GridViewColumn  Header="Rate"  DisplayMemberBinding="{Binding Path=rate}"/>
+                <GridViewColumn  Header="Total"  DisplayMemberBinding="{Binding Path=amount}" />
+                <GridViewColumn  Header="Labour Charges" DisplayMemberBinding="{Binding Path=Labourcharg}" />
+                <GridViewColumn Header="Design Charges"  DisplayMemberBinding="{Binding Path=DesignCharges}"/>
+                <GridViewColumn  Header="Positive Charges" DisplayMemberBinding="{Binding Path=Positivecharges}" />
+                <GridViewColumn  Header="Total Amount"  DisplayMemberBinding="{Binding Path=SubTotal}"/>
+                <GridViewColumn  Header="Delivery Date"  DisplayMemberBinding="{Binding Path=DeliveryDate}"/>
+            </GridView>
+                </ListView.View>
+            </ListView>-->
+
+            <DataGrid FontSize="15" RowHeaderWidth= "40" HorizontalScrollBarVisibility="Auto" CanUserAddRows="False" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" ColumnWidth="*"  VerticalAlignment="Top" AlternatingRowBackground="LightCyan" AutoGenerateColumns="False" Name="datagridBill" Margin="2" MouseDoubleClick="datagridBill_MouseDoubleClick" >
+                <DataGrid.Columns >
+                    <DataGridTextColumn Width="20" Binding="{Binding Path=DEl}" Header="" />
+                    <DataGridTextColumn Width="40" Binding="{Binding Path=detail_bill_id}" Header="ID" />
+                    <DataGridTextColumn  Binding="{Binding Path=Qty}"  FontWeight="Bold" Header="Qty"/>
+                    <DataGridTextColumn Width="250" Binding="{Binding Path=ItemDescription}" Header="Item Description"/>
+                    <DataGridTextColumn  Binding="{Binding Path=SizeWidth}" Header="Width"/>
+                    <DataGridTextColumn  Header="Length"  Binding="{Binding Path=SizeLength}"/>
+                    <DataGridTextColumn  Header="Total Size"  Binding="{Binding Path=TotalSize}"/>
+                    <DataGridTextColumn  Header="Rate"  Binding="{Binding Path=Rate}"/>
+                    <DataGridTextColumn  Header="Total"  Binding="{Binding Path=Total}" />
+                    <DataGridTextColumn  Header="Labour Charges" Binding="{Binding Path=LabourCharges}" />
+                    <DataGridTextColumn Header="Design Charges"  Binding="{Binding Path=DesignCharges}"/>
+                    <DataGridTextColumn  Header="Positive Charges" Binding="{Binding Path=PositiveCharges}" />
+                    <DataGridTextColumn Width="120"   Header="Total Amount"  Binding="{Binding Path=totalamount}"/>
+                    <DataGridTextColumn Width="200"  Header="Delivery Date"  Binding="{Binding Path=DeliveryPromiseDate}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+        </Grid>
+        <Grid Grid.Row="4">
+            <WrapPanel VerticalAlignment="Center" HorizontalAlignment="Right">
+                <Label Content="SubTotal = " FontSize="15"></Label>
+                <TextBox IsEnabled="False" Name="txtSubTotal" FontSize="15" Width="150" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" TextChanged="txtSubTotal_TextChanged"></TextBox>
+                <Label Content="Discount = " FontSize="15"></Label>
+                <TextBox TextChanged="txtDiscount_TextChanged" Text="0" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Name="txtDiscount" FontSize="15" Width="150"></TextBox>
+                <Label Content="GrandTotal = " FontSize="15"></Label>
+                <TextBox  Name="txtGrandtotal" TextChanged="txtGrandtotal_TextChanged_1" FontSize="15" Width="150" Margin="0,0,10,0" HorizontalContentAlignment="Right" IsEnabled="False" VerticalContentAlignment="Center"></TextBox>
+                <!--<Button Content="Generate Bill" FontSize="15" Margin="20,0,10,0" Name="btnGenerateBill" Click="btnGenerateBill_Click"></Button>-->
+            </WrapPanel>
+        </Grid>
+        <Grid Grid.Row="5">
+            <WrapPanel VerticalAlignment="Center" HorizontalAlignment="Right">
+                <Label Content="Advance = " FontSize="15"></Label>
+                <TextBox  Name="txtAdvancPaid" TextChanged="txtAdvancPaid_TextChanged" FontSize="15" Width="150" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" ></TextBox>
+                <Label Content="Remaining = " IsEnabled="False" FontSize="15"></Label>
+                <TextBox IsEnabled="False" Text="0" HorizontalContentAlignment="Right"   VerticalContentAlignment="Center" Name="txtremainig" FontSize="15" Width="150"></TextBox>
+                <Label Content="Remaining Balance = " IsEnabled="False" FontSize="15"></Label>
+                <TextBox IsEnabled="False"  HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Name="txtremainingBalance" FontSize="15" Width="150"></TextBox>
+                <Button Content="Add Reminder" Margin="10,0,0,0" FontSize="15"></Button>
+                <CheckBox Name="ChkboxPrintSlip" IsChecked="True" FontSize="15" Margin="10,0,0,0" Content="Print Slip" HorizontalAlignment="Center" VerticalAlignment="Center"></CheckBox>
+                <Button Content="Generate Bill" FontSize="15" Margin="10,0,10,0" Name="btnGenerateBill" Click="btnGenerateBill_Click"></Button>
+            </WrapPanel>
+        </Grid>
+    </Grid>
+</Page>

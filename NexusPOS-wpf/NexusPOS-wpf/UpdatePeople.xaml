@@ -1,0 +1,91 @@
+﻿<Page x:Name="PGUpdatePeople" x:Class="NexusPOS_wpf.UpdatePeople"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NexusPOS_wpf"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="500"
+      Title="UpdatePeople" Loaded="PGUpdatePeople_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Border BorderBrush="Gray" BorderThickness="1">
+                <WrapPanel>
+                    <Label Content="Personel ID: " FontSize="20" Margin="20,0,0,0"></Label>
+                    <Label FontSize="20" Name="lblpersonNumber"></Label>
+                </WrapPanel>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="1" Margin="2">
+            <WrapPanel HorizontalAlignment="Left" Margin="2" VerticalAlignment="Center">
+                <Label Content="Name* :" FontSize="15" FontWeight="Bold" Margin="5,0,5,0"></Label>
+                <TextBox Name="txtName" Width="100" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"></TextBox>
+                <Label Content="       Gaurdian Name :" FontSize="15" FontWeight="Bold"></Label>
+                <TextBox Name="txtGaurdian" Width="120" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"></TextBox>
+            </WrapPanel>
+        </Grid>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="2" Margin="2">
+            <Label FontWeight="Bold" Content="CNIC :" FontSize="15"></Label>
+            <TextBox Name="txtCNIC" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="300"  Margin="2"></TextBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="3" Margin="2">
+            <Label FontWeight="Bold" Content="Mobile Number* :" FontSize="15"></Label>
+            <TextBox Name="txtMobilenumber" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="300"  Margin="2"></TextBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="4" Margin="2">
+            <Label FontWeight="Bold" Content="Address :" FontSize="15"></Label>
+            <TextBox Name="txtAddress" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="300"  Margin="2"></TextBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="5" Margin="2">
+            <Label FontWeight="Bold" Content="City :" FontSize="15"></Label>
+            <TextBox Name="txtCity" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="300"  Margin="2"></TextBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="6" Margin="2">
+            <Label FontWeight="Bold" Content="Job/Buisness Name :" FontSize="15"></Label>
+            <TextBox Name="txtJobBuisnessName" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="300"  Margin="2"></TextBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="7" Margin="2">
+            <Label FontWeight="Bold" Content="Buisness Address :" FontSize="15"></Label>
+            <TextBox Name="txtBuisnessAddress" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="300"  Margin="2"></TextBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="8" Margin="2">
+            <Label FontWeight="Bold" Content="Email :" FontSize="15"></Label>
+            <TextBox Name="txtemail" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="300"  Margin="2"></TextBox>
+        </WrapPanel            >
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="9" Margin="2">
+            <Label FontWeight="Bold" Content="Description :" FontSize="15"></Label>
+            <TextBox Name="txtDescription" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="350"  Margin="2"></TextBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="10" Margin="2">
+            <Label FontWeight="Bold" Content="Type :" FontSize="15"></Label>
+            <ComboBox Name="txtType" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="300"  Margin="2">
+                <ComboBoxItem Content="Customer"/>
+                <ComboBoxItem Content="Vender"/>
+                <ComboBoxItem Content="Employee"/>
+            </ComboBox>
+        </WrapPanel>
+        <Grid Grid.Row="11">
+            <WrapPanel VerticalAlignment="Center" HorizontalAlignment="Right">
+                <Label FontSize="15" Content="Joining Date"></Label>
+                <DatePicker Name="dtpickerJoiningdate" Margin="2,0,5,0" FirstDayOfWeek="Monday" FontSize="16" ></DatePicker>
+                <Button Name="Updateinfo" Click="Updateinfo_Click" Content="Save Information" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="30,0,20,0" FontSize="15" FontWeight="Bold" Width="200"></Button>
+            </WrapPanel>
+
+        </Grid>
+    </Grid>
+</Page>

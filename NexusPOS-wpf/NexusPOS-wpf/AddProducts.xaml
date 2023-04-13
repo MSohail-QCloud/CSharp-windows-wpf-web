@@ -1,0 +1,123 @@
+﻿<Page x:Name="AddProducts1" x:Class="NexusPOS_wpf.AddProducts"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NexusPOS_wpf"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="500"
+      Title="Add Products" Loaded="AddProducts1_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Border BorderBrush="Gray" BorderThickness="1">
+                <WrapPanel>
+                    <Label Content="Product ID: " FontSize="20" Margin="20,0,0,0"></Label>
+                    <Label FontSize="20" Name="lblproductId"></Label>
+                    <Label Content="Barcode: " FontSize="20" Margin="60,0,0,0"></Label>
+                    <Label FontSize="20" Name="lblbarcode"></Label>
+                </WrapPanel>
+            </Border>
+        </Grid>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1" Margin="2">
+            <Label FontWeight="Bold" Content="Item Description* :" FontSize="15"></Label>
+            <TextBox Name="txtItemDescription" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="300"  Margin="2"></TextBox>
+        </WrapPanel>
+        <Grid Grid.Row="2" Margin="2">
+            <WrapPanel HorizontalAlignment="Left" Margin="2" VerticalAlignment="Center">
+                <Label Content="Catagory* :" FontSize="15" FontWeight="Bold" Margin="5,0,5,0"></Label>
+                <ComboBox IsEditable="True" Name="txtCatogory" Width="100" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left">
+                    <ComboBoxItem Content="Ink for Printing"/>
+                    <ComboBoxItem Content="Paint"/>
+                    <ComboBoxItem Content="Copper Printing Board"/>
+                </ComboBox>
+                <Label Content="Brand Name:"  Margin="20,0,10,0 " FontSize="15" FontWeight="Bold"></Label>
+                <ComboBox IsEditable="True" Name="txtbrandName" Width="120" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"></ComboBox>
+            </WrapPanel>
+        </Grid>
+        <Grid Grid.Row="3" Margin="2">
+            <WrapPanel HorizontalAlignment="Center">
+                <Label Content="Size :" FontSize="15" FontWeight="Bold" Margin="5,0,15,0"></Label>
+                <Label Content="Width =" FontSize="15" FontWeight="Bold" Margin="5,0,5,0"></Label>
+                <TextBox Name="txtSizeWidth" Width="100" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"  ></TextBox>
+                <Label Content="Length =" FontSize="15" FontWeight="Bold"></Label>
+                <TextBox Name="txtSizeLength" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="100" ></TextBox>
+                <!--<Label Content="Total Size=" FontSize="15" FontWeight="Bold"></Label>
+                <TextBox IsEnabled="False" Name="txtSizetotal" Text="0" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="100"></TextBox>-->
+            </WrapPanel>
+        </Grid>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="4" Margin="2">
+            <Label Content="Net Weight :" FontSize="15" FontWeight="Bold" Margin="5,0,5,0"></Label>
+            <TextBox Name="txtNetWeight" Width="100" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"></TextBox>
+            <Label Content="Gross Weight:"  Margin="20,0,10,0 " FontSize="15" FontWeight="Bold"></Label>
+            <TextBox Name="txtGrossWeight" Width="120" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"></TextBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="5" Margin="2">
+            <Label FontWeight="Bold" Content="Sales Price :" FontSize="15"></Label>
+            <TextBox Name="txtSalePrice" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="100"  Margin="2"></TextBox>
+            <Label Content="Cost:"  Margin="20,0,10,0 " FontSize="15" FontWeight="Bold"></Label>
+            <TextBox Name="txtCost" Width="120" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"></TextBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="6" Margin="2">
+            <Label FontWeight="Bold" Content="Stock Level:" FontSize="15"></Label>
+            <Label FontWeight="Bold" Content="Minimum:" FontSize="15"></Label>
+            <TextBox Name="txtStockMinimum" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="100"  Margin="2"></TextBox>
+            <Label FontWeight="Bold" Content="Maximum:" FontSize="15"></Label>
+            <TextBox Name="txtStockMaximum" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="100"  Margin="2"></TextBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="7" Margin="2">
+            <Label FontWeight="Bold" Content="Unit :" FontSize="15"></Label>
+            <ComboBox Name="comboUnit" IsEditable="True" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="100"  Margin="2">
+                <ComboBoxItem Content="KG"/>
+                <ComboBoxItem Content="Carton"/>
+                <ComboBoxItem Content="Inches"/>
+                <ComboBoxItem Content="Meter"/>
+            </ComboBox>
+            <Label FontWeight="Bold" Content="Expiry Duration:" FontSize="15"></Label>
+            <ComboBox Name="txtExpiryDuration" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="100"  Margin="2">
+                <ComboBoxItem Content="1 Month"/>
+                <ComboBoxItem Content="3 Month"/>
+                <ComboBoxItem Content="6 Month"/>
+                <ComboBoxItem Content="9 Month"/>
+                <ComboBoxItem Content="1 Year"/>
+                <ComboBoxItem Content="2 Year"/>
+                <ComboBoxItem Content="3 Year"/>
+                <ComboBoxItem Content="5 Year"/>
+                <ComboBoxItem Content="10 Year"/>
+            </ComboBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="8" Margin="2">
+            <Label FontWeight="Bold" Content="Packing Type :" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+            <RadioButton Name="sheetType" Checked="sheetType_Checked" Content="Sheet" GroupName="Ptype" FontSize="20" HorizontalAlignment="Center"></RadioButton>
+            <RadioButton Name="BottleType" Checked="BottleType_Checked" Content="Bottle" GroupName="Ptype" FontSize="20" HorizontalAlignment="Center"></RadioButton>
+            <RadioButton Name="CottonType" Checked="CottonType_Checked" Content="Cotton" GroupName="Ptype" FontSize="20" HorizontalAlignment="Center"></RadioButton>
+            <RadioButton Name="BageType" Checked="BageType_Checked" Content="Bag" GroupName="Ptype" FontSize="20" HorizontalAlignment="Center"></RadioButton>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="9" Margin="2">
+            <Label FontWeight="Bold" Content="Comment :" FontSize="15"></Label>
+        </WrapPanel>
+        <Grid Grid.Row="10">
+            <TextBox  Name="txtComment" FontSize="15" Margin="10,0" Background="White"></TextBox>
+        </Grid>
+        <Grid Grid.Row="11">
+            <WrapPanel VerticalAlignment="Center" HorizontalAlignment="Right">
+                <Button Name="SaveProduct" Click="SaveProduct_Click" Content="Save Product" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="30,0,20,0" FontSize="15" FontWeight="Bold" Width="200"></Button>
+            </WrapPanel>
+
+        </Grid>
+    </Grid>
+</Page>

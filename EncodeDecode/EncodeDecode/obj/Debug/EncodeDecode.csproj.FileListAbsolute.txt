@@ -1,0 +1,9 @@
+E:\my project\EncodeDecode\EncodeDecode\bin\Debug\EncodeDecode.exe.config
+E:\my project\EncodeDecode\EncodeDecode\bin\Debug\EncodeDecode.exe
+E:\my project\EncodeDecode\EncodeDecode\bin\Debug\EncodeDecode.pdb
+E:\my project\EncodeDecode\EncodeDecode\obj\Debug\EncodeDecode.csprojResolveAssemblyReference.cache
+E:\my project\EncodeDecode\EncodeDecode\obj\Debug\EncodeDecode.Form1.resources
+E:\my project\EncodeDecode\EncodeDecode\obj\Debug\EncodeDecode.Properties.Resources.resources
+E:\my project\EncodeDecode\EncodeDecode\obj\Debug\EncodeDecode.csproj.GenerateResource.Cache
+E:\my project\EncodeDecode\EncodeDecode\obj\Debug\EncodeDecode.exe
+E:\my project\EncodeDecode\EncodeDecode\obj\Debug\EncodeDecode.pdb

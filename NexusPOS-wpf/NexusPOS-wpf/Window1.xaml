@@ -1,0 +1,116 @@
+﻿<Window x:Class="NexusPOS_wpf.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NexusPOS_wpf"
+        mc:Ignorable="d"
+        Title="Main Screen" Height="1300" Width="768" WindowState="Maximized" Background="White" ResizeMode="CanResizeWithGrip" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Menu>
+                <Menu.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFCDCDCD" Offset="0.007"/>
+                        <GradientStop Color="White" Offset="1"/>
+                        <GradientStop Color="#FFFFFCFC" Offset="0.548"/>
+                    </LinearGradientBrush>
+                </Menu.Background>
+                <MenuItem Header="File"/>
+                <MenuItem Header="Show"/>
+                <MenuItem Header="Help"/>
+                <MenuItem Header="Create Password"/>
+            </Menu>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="114" ></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Background="#F0F0F0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0"  >
+                    <Button Grid.Row="0"  x:Name="btnSales" Click="btnSales_Click" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}"  >
+                        <Button.Background>
+                            <ImageBrush ImageSource="imges/sale.png"/>
+                        </Button.Background>
+
+                        <!--<Image x:Name="tokry_png" Height="75"  Source="tokry.png" Stretch="Fill" Width="75"/>-->
+                        <!--<Button.Background>
+                        <ImageBrush ImageSource="Resources/SaleIcon.png" Stretch="None"/>
+                    </Button.Background>-->
+                        <!--<Grid    >
+                        <WrapPanel>
+                            <Image Source="pack://siteoforigin:,,,/Resources/SaleIcon.png" Stretch="None" />
+                        <Label DockPanel.Dock="Bottom" VerticalAlignment="Bottom" Content="Sale" >                            
+                        </Label>
+                        </WrapPanel>
+                        
+                    </Grid>-->
+                    </Button>
+
+                </Grid>
+                <Button Grid.Row="1" x:Name="btnQout" IsEnabled="False" Click="btnQout_Click" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                    <Button.Background>
+                        <ImageBrush ImageSource="imges/quetation.png"  />
+                    </Button.Background>
+                </Button>
+                <Button Grid.Row="2" x:Name="btnCustomer"  Click="btnCustomer_Click" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                    <Button.Background>
+                        <ImageBrush ImageSource="imges/customer.png"/>
+                    </Button.Background>
+                </Button>
+                <Button Grid.Row="3" x:Name="btnProducts" Click="btnProducts_Click" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                    <Button.Background>
+                        <ImageBrush ImageSource="imges/Products.png"/>
+                    </Button.Background>
+                </Button>
+                <Button Grid.Row="4" x:Name="btnAcountPay"  Click="btnAcountPay_Click" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                    <Button.Background>
+                        <ImageBrush ImageSource="imges/accounts.png"/>
+                    </Button.Background>
+                </Button>
+                <Button Grid.Row="5" x:Name="btnReg"  Click="btnReg_Click" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                    <Button.Background>
+                        <ImageBrush ImageSource="imges/registers.png"/>
+                    </Button.Background>
+                </Button>
+                <Button Grid.Row="6" x:Name="btnUser" Click="btnUser_Click" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                    <Button.Background>
+                        <ImageBrush ImageSource="imges/users.png"/>
+                    </Button.Background>
+                </Button>
+                <Button Grid.Row="7" x:Name="btnstatictics" Click="btnstatictics_Click" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                    <Button.Background>
+                        <ImageBrush ImageSource="imges/statistics.png"/>
+                    </Button.Background>
+                </Button>
+                <Button Grid.Row="8" x:Name="btnHelpCenter" IsEnabled="False"  Click="btnHelpCenter_Click" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                    <Button.Background>
+                        <ImageBrush ImageSource="imges/helpcenter.png"/>
+                    </Button.Background>
+                </Button>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Frame x:Name="FrameWithinGrid" Background="White" Margin="5,5,5,5" />
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

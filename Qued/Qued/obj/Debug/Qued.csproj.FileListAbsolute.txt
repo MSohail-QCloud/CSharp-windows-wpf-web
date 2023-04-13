@@ -1,0 +1,17 @@
+D:\Qued\Qued\bin\Debug\Qued.exe.config
+D:\Qued\Qued\bin\Debug\Qued.exe
+D:\Qued\Qued\bin\Debug\Qued.pdb
+D:\Qued\Qued\obj\Debug\Qued.csprojResolveAssemblyReference.cache
+D:\Qued\Qued\obj\Debug\Qued.Form1.resources
+D:\Qued\Qued\obj\Debug\Qued.Properties.Resources.resources
+D:\Qued\Qued\obj\Debug\Qued.csproj.GenerateResource.Cache
+D:\Qued\Qued\obj\Debug\Qued.exe
+D:\Qued\Qued\obj\Debug\Qued.pdb
+E:\Qued\Qued\bin\Debug\Qued.exe.config
+E:\Qued\Qued\obj\Debug\Qued.exe
+E:\Qued\Qued\obj\Debug\Qued.pdb
+E:\Qued\Qued\bin\Debug\Qued.exe
+E:\Qued\Qued\bin\Debug\Qued.pdb
+E:\Qued\Qued\obj\Debug\Qued.Form1.resources
+E:\Qued\Qued\obj\Debug\Qued.Properties.Resources.resources
+E:\Qued\Qued\obj\Debug\Qued.csproj.GenerateResource.Cache

@@ -1,0 +1,80 @@
+﻿<Page x:Class="NexusPOS_wpf.Customer"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NexusPOS_wpf"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="700"
+      Title="Customer" Loaded="Page_Loaded">
+
+    <Grid>
+        <!--<Label Content="customer"></Label>-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Margin="1" Background="#FFF0F0F0">
+            <Border BorderBrush="Gray" BorderThickness="1" >
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="45"></ColumnDefinition>
+                        <ColumnDefinition Width="45"></ColumnDefinition>
+                        <ColumnDefinition Width="45"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0" FontSize="18" FontWeight="Bold"  Foreground="#FF1163B7"   Name="MenuAddCust" Click="MenuAddCust_Click" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                        <Button.Background>
+                            <ImageBrush ImageSource="imges/addicon.png" Stretch="None"/>
+                        </Button.Background>
+                    </Button>
+                    <Button Grid.Column="1" FontSize="18" FontWeight="Bold"  Foreground="#FF1163B7"   Name="MenuEditCudt" Click="MenuEditCudt_Click" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}" >
+                        <Button.Background>
+                            <ImageBrush ImageSource="imges/editicon.png" Stretch="None"/>
+                        </Button.Background>
+                    </Button>
+                    <Button Grid.Column="2" FontSize="18" FontWeight="Bold"  Foreground="#FF1163B7"   Name="MenuDeleteCumstomer" Click="MenuDeleteCumstomer_Click" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                        <Button.Background>
+                            <ImageBrush ImageSource="imges/deleteicon.png" Stretch="None"/>
+                        </Button.Background>
+                    </Button>
+                    <Button Grid.Column="3" FontSize="18" FontWeight="Bold"  Foreground="#FF1163B7"  Content="Debit" Name="MenuDebit" BorderBrush="{x:Null}" Background="{x:Null}" ></Button>
+                    <Button Grid.Column="4" FontSize="18" FontWeight="Bold"  Foreground="#FF1163B7" Content="Active" Click="MenuStoreCredit_Click" Name="MenuStoreCredit" Background="{x:Null}" BorderBrush="{x:Null}" ></Button>
+                    <Button Grid.Column="5" FontSize="18" FontWeight="Bold"  Foreground="#FF1163B7" Content="Inactive " Name="MenuInactiveCust" Click="MenuInactiveCust_Click" Background="{x:Null}" BorderBrush="{x:Null}"  ></Button>
+                    <Button Grid.Column="6" FontSize="18" FontWeight="Bold"  Foreground="#FF1163B7" Content="All" Name="MenuShooAllCustomers" Click="MenuShooAllCustomers_Click" BorderBrush="{x:Null}" Background="{x:Null}" ></Button>
+                </Grid>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="1" Margin="1">
+            <Border BorderBrush="Gray" BorderThickness="1" Margin="1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <DataGrid FontSize="20" RowHeaderWidth= "40" HorizontalScrollBarVisibility="Auto" CanUserAddRows="False" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" ColumnWidth="*"  VerticalAlignment="Top" AlternatingRowBackground="LightCyan" AutoGenerateColumns="False"  Name="DGListofCustomers"  SelectionChanged="DGListofCustomers_SelectionChanged" >
+                            <DataGrid.Columns >
+                                <!--<DataGridCheckBoxColumn Binding="{Binding Path=Select}" Header="Select" Width="70" CanUserSort="False" CanUserReorder="False" CanUserResize="False" />-->
+                                <DataGridTextColumn  Binding="{Binding Path=Personid}" Header="ID" Width="40" />
+                                <DataGridTextColumn  Binding="{Binding Path=PersonName}"   Header="Name"/>
+                                <DataGridTextColumn  Binding="{Binding Path=GaurdianName}" Header="Gaurdian"/>
+                                <DataGridTextColumn  Binding="{Binding Path=mobileNumber}" Header="Mobile#"/>
+                                <DataGridTextColumn  Header="CNIC"  Binding="{Binding Path=Cnic}"/>
+                                <DataGridTextColumn  Header="Address"  Binding="{Binding Path=Address}"/>
+                                <DataGridTextColumn  Header="City"  Binding="{Binding Path=PersonCity}"/>
+                                <DataGridTextColumn  Header="Buisness Name"  Binding="{Binding Path=PersonBuisnessName}" />
+                                <DataGridTextColumn  Header="Buisness Address" Binding="{Binding Path=PersonAddress}" />
+                                <DataGridTextColumn Header="Email"  Binding="{Binding Path=PersonEmail}"/>
+                                <DataGridTextColumn  Header="Joining Date" Binding="{Binding Path=JoiningDate}" />
+                                <DataGridTextColumn Width="120"   Header="Person Description"  Binding="{Binding Path=PersonDescription}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</Page>

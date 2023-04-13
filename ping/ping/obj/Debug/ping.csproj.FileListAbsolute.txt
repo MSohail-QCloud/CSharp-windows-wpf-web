@@ -1,0 +1,1 @@
+E:\my project\ping\ping\bin\Debug\ping.exe.config

@@ -1,0 +1,107 @@
+﻿<Page x:Name="AddTask1" x:Class="NexusPOS_wpf.AddTask"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NexusPOS_wpf"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="500"
+      Title="AddTask" Loaded="AddTask1_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Border BorderBrush="Gray" BorderThickness="1">
+                <WrapPanel>
+                    <Label Content="Schedule Task : " FontSize="20" Margin="20,0,0,0"></Label>
+                    <Label Name="lblphonePerson" Content="03086290731" FontSize="20" Margin="20,0,0,0"></Label>
+                    <Label  Content=" Balance=" FontSize="20" Margin="20,0,0,0"></Label>
+                    <Label Name="lblBalancePerson" Content=" = " FontSize="20" Margin="10,0,0,0"></Label>
+                </WrapPanel>
+            </Border>
+        </Grid>
+        
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1" Margin="2">
+            <Label FontWeight="Bold" Content="Description * :" FontSize="15"></Label>
+            <TextBox Name="txtTaskDescription" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="350"  Margin="2"></TextBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="2" Margin="2">
+            <Label FontWeight="Bold" Content="Remind on:" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+            <RadioButton Name="SpecificDate"  Checked="SpecificDate_Checked" Content="Specific Date" GroupName="Ptype" FontSize="20" HorizontalAlignment="Center"></RadioButton>
+            <RadioButton Name="EverydayofWeek" Checked="EverydayofWeek_Checked" Content="Everyday of Week" GroupName="Ptype" FontSize="20" HorizontalAlignment="Center"></RadioButton>
+            <RadioButton Name="Monthly" Checked="Monthly_Checked" Content="Month" GroupName="Ptype" FontSize="20" HorizontalAlignment="Center"></RadioButton>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="3" Margin="2">
+            <Label FontWeight="Bold" Content="Target Date * :" FontSize="15"></Label>
+            <DatePicker Name="dtpickerTagetDate" Margin="2,0,5,0" FirstDayOfWeek="Monday" FontSize="16" ></DatePicker>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="4" Margin="2">
+            <Label FontWeight="Bold" Content="Week Day :" FontSize="15"></Label>
+            <ComboBox Name="txtWeekday" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="300"  Margin="2">
+                <ComboBoxItem Content="Select Day" IsSelected="True" />
+                <ComboBoxItem Content="Monday"/>
+                <ComboBoxItem Content="Tuesday"/>
+                <ComboBoxItem Content="Wednesday"/>
+                <ComboBoxItem Content="Thursday"/>
+                <ComboBoxItem Content="Friday"/>
+                <ComboBoxItem Content="Saturday"/>
+                <ComboBoxItem Content="Sunday"/>
+            </ComboBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="5" Margin="2">
+            <Label FontWeight="Bold" Content="MonthDay :" FontSize="15"></Label>
+            <ComboBox Name="txtMonthday" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="300"  Margin="2">
+                <ComboBoxItem Content="Select Month" IsSelected="True"  />
+                <ComboBoxItem Content="January"  />
+                <ComboBoxItem Content="Feburay"/>
+                <ComboBoxItem Content="March"/>
+                <ComboBoxItem Content="April"/>
+                <ComboBoxItem Content="May"/>
+                <ComboBoxItem Content="June"/>
+                <ComboBoxItem Content="July"/>
+                <ComboBoxItem Content="August"/>
+                <ComboBoxItem Content="September"/>
+                <ComboBoxItem Content="October"/>
+                <ComboBoxItem Content="November"/>
+                <ComboBoxItem Content="December"/>
+            </ComboBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="6" Margin="2">
+            <Label FontWeight="Bold" Content="Remind about :" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+            <RadioButton Name="Bill" Checked="Bill_Checked" Content="Bill" GroupName="Rabout" FontSize="20" HorizontalAlignment="Center"></RadioButton>
+            <RadioButton Name="PurchaseOrder" Checked="PurchaseOrder_Checked" Content="Purchase Order" GroupName="Rabout" FontSize="20" HorizontalAlignment="Center"></RadioButton>
+            
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="7" Margin="2">
+            <Label FontWeight="Bold" Content="BillNumber :" FontSize="15"></Label>
+            <TextBox Name="txtBillNumber" Text="0" PreviewTextInput="txtBillNumber_PreviewTextInput" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="100"  Margin="2"></TextBox>
+            <Label FontWeight="Bold" Content="PONumber :" FontSize="15"></Label>
+            <TextBox Name="txtPONumber" Text="0" PreviewTextInput="txtPONumber_PreviewTextInput" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="100"  Margin="2"></TextBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="8" Margin="2">
+            <Label FontWeight="Bold" Content="Person :" FontSize="15"></Label>
+            <ComboBox Name="txtCustomerNAME" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Width="350"  Margin="2" SelectionChanged="txtCustomerNAME_SelectionChanged" DropDownClosed="txtCustomerNAME_DropDownClosed"></ComboBox>
+            <Label FontWeight="Bold" Content="" Name="lblPersonID" Margin="5,0,0,0" FontSize="15"></Label>
+        </WrapPanel>
+        <StackPanel Grid.Row="9" Margin="2">
+            <Label FontWeight="Bold" Content="Note :" FontSize="15"></Label>
+            <TextBox Name="txtNotification" FontSize="15"   Height="39"  ></TextBox>
+        </StackPanel>
+        <Grid Grid.Row="11">
+            <Button Name="SaveTask" Click="SaveTask_Click" Content="Save Task" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="30,0,20,0" FontSize="15" FontWeight="Bold" Width="200"></Button>
+            
+        </Grid>
+    </Grid>
+</Page>

@@ -1,0 +1,113 @@
+﻿<Page x:Name="Alarms1" x:Class="NexusPOS_wpf.Alarms"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NexusPOS_wpf"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="700"
+      Title="Alarms" Loaded="Alarms1_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Margin="1" Background="#FFF0F0F0">
+            <Border BorderBrush="Gray" BorderThickness="1" >
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="45"></ColumnDefinition>
+                        <ColumnDefinition Width="45"></ColumnDefinition>
+                        <ColumnDefinition Width="45"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0" FontSize="18" FontWeight="Bold"  Foreground="#FF1163B7"   Name="btnAddTask" Click="btnAddTask_Click" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                        <Button.Background>
+                            <ImageBrush ImageSource="imges/addicon.png" Stretch="None"/>
+                        </Button.Background>
+                    </Button>
+                    <Button Grid.Column="1" FontSize="18" FontWeight="Bold"  Foreground="#FF1163B7"   Name="MenuEditCudt"  BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}" >
+                        <Button.Background>
+                            <ImageBrush ImageSource="imges/editicon.png" Stretch="None"/>
+                        </Button.Background>
+                    </Button>
+                    <Button Grid.Column="2" FontSize="18" FontWeight="Bold"  Foreground="#FF1163B7"   Name="MenuDeleteCumstomer"  BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                        <Button.Background>
+                            <ImageBrush ImageSource="imges/deleteicon.png" Stretch="None"/>
+                        </Button.Background>
+                    </Button>
+                    <Button Grid.Column="3" FontSize="18" FontWeight="Bold"  Foreground="#FF1163B7"  Content="Today Tasks" Name="btnAlarm" BorderBrush="{x:Null}" Background="{x:Null}" Click="btnAlarm_Click" ></Button>
+                    <Button Grid.Column="4" FontSize="18" FontWeight="Bold"  Foreground="#FF1163B7" Content="Pending"  Name="MenuStoreCredit" Background="{x:Null}" BorderBrush="{x:Null}" ></Button>
+                    <Button Grid.Column="5" FontSize="18" FontWeight="Bold"  Foreground="#FF1163B7" Content="Up Coming " Name="MenuInactiveCust" Background="{x:Null}" BorderBrush="{x:Null}"  ></Button>
+                    <Button Grid.Column="6" FontSize="18" FontWeight="Bold"  Foreground="#FF1163B7" Content="All" Name="MenuShooAllCustomers" BorderBrush="{x:Null}" Background="{x:Null}" ></Button>
+                </Grid>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="1">
+            <!--<Frame x:Name="FrameWithinGrid" Background="White" Margin="5,5,5,5" />-->
+            <Grid Grid.Row="1" Margin="1">
+                <Border BorderBrush="Gray" BorderThickness="0">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition Height="30"></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <WrapPanel Grid.Row="0" HorizontalAlignment="Left">
+                            <Label VerticalAlignment="Center" HorizontalAlignment="Center" Content="Show : " FontSize="15" ></Label>
+                            <DatePicker VerticalAlignment="Center" HorizontalAlignment="Center"  Margin="20,0,20,0" FontSize="15" Name="dtfrom" CalendarOpened="dtfrom_CalendarOpened" ></DatePicker>
+                            <DatePicker VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20,0,20,0" FontSize="15" Name="dtto" CalendarOpened="dtto_CalendarOpened" ></DatePicker>
+                            <CheckBox Name="checkbxDailysale" IsChecked="True" Content="Daily Sale" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20,0,20,0" FontSize="15" Checked="checkbxDailysale_Checked"></CheckBox>
+                            <Button Content="Execute" Name="btnExecute" Foreground="DarkGreen" Click="btnExecute_Click"  FontSize="15" BorderBrush="{x:Null}"></Button>
+                        </WrapPanel>
+
+                        <Grid Grid.Row="1">
+                            <DataGrid FontSize="15" VerticalContentAlignment="Center" SelectionChanged="datagridBill_SelectionChanged" CanUserAddRows="False" Name="datagridBill" Margin="2" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" ColumnWidth="*"  AlternatingRowBackground="LightCyan" AutoGenerateColumns="False">
+                                <DataGrid.Columns >
+                                    <DataGridTextColumn Width="40" Binding="{Binding Path=AlarmID}" Header="ID" />
+                                    <DataGridTextColumn Width="2*" Binding="{Binding Path=AlarmDescription}" Header="Description" />
+                                    <DataGridTextColumn Width="80" Binding="{Binding Path=AlarmDate}" Header="Alert Date" />
+                                    <DataGridTextColumn Width="80" Binding="{Binding Path=AlarmWeekDay}" Header="Weekly"/>
+                                    <DataGridTextColumn Width="80" IsReadOnly="True"  Binding="{Binding Path=AlarmMonthly}" Header="Monthly"/>
+                                    <DataGridTextColumn Width="80" Binding="{Binding Path=billnumber}" Header="Bill#"/>
+                                    <DataGridTextColumn Width="80" Header="PO#"  Binding="{Binding Path=POnumber}"/>
+                                    <DataGridTextColumn  Header="Response to"  Binding="{Binding Path=Personid}"/>
+                                    <DataGridTextColumn  Header="Notification"  Binding="{Binding Path=Notification}"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Grid>
+                        <Grid Grid.Row="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="30" ></ColumnDefinition>
+                                <ColumnDefinition Width="80"></ColumnDefinition>
+                                <ColumnDefinition Width="40"></ColumnDefinition>
+                                <ColumnDefinition ></ColumnDefinition>
+                                <ColumnDefinition Width="250"></ColumnDefinition>
+                                <ColumnDefinition ></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <TextBox Grid.Column="0" IsReadOnly="True" FontSize="15"></TextBox>
+                            <TextBox Grid.Column="1" IsReadOnly="True" FontSize="15"></TextBox>
+                            <TextBox Grid.Column="2" IsReadOnly="True" FontSize="15" ></TextBox>
+                            <TextBox Grid.Column="3" IsReadOnly="True" FontSize="15" ></TextBox>
+                            <TextBox Grid.Column="4" IsReadOnly="True" FontSize="15" ></TextBox>
+                            <TextBox Name="txtSum" Grid.Column="5" FontSize="15" ></TextBox>
+                            <TextBox Name="txtDiscount" Grid.Column="6" FontSize="15"></TextBox>
+                            <TextBox Name="txtTotal" Grid.Column="7" FontSize="15"></TextBox>
+                            <TextBox Name="txtPaid" Grid.Column="8" FontSize="15"></TextBox>
+                            <TextBox Name="txtremaining" Grid.Column="9" FontSize="15"></TextBox>
+                        </Grid>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

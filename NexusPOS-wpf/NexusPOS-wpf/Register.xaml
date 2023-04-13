@@ -1,0 +1,224 @@
+﻿<Page x:Class="NexusPOS_wpf.Register"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NexusPOS_wpf"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="Register">
+
+    <!--<Grid>
+        <TabControl>
+            <TabItem Header="Products">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" Margin="1">
+                        <Border BorderBrush="Gray" BorderThickness="1" Margin="1">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Button Grid.Column="0" Margin="0.5" Content="New Sale (F3)" Name="MenuAdd" Click="MenuAdd_Click"></Button>
+                                <Button Grid.Column="1" Margin="0.5" Content="Order (F4)" Name="MenuEdit" Click="MenuEdit_Click"></Button>
+                                <Button Grid.Column="2" Margin="0.5" Content="Edit" Name="MenuDelete" Click="MenuDelete_Click"></Button>
+                                <Button Grid.Column="3" Margin="0.5" Content="Stock" Name="MenuStock" Click="MenuStock_Click"></Button>
+                                <Button Grid.Column="4" Margin="0.5" Content="Label" Name="MenuLabel" Click="MenuLabel_Click"></Button>
+                                <Button Grid.Column="5" Margin="0.5" Content="Add Expiration Date" Name="MenuExpiry" Click="MenuExpiry_Click"></Button>
+                                <Button Grid.Column="5" Margin="0.5" Content="Disable Product" Name="MenuDisableProduct" Click="MenuDisableProduct_Click"></Button>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                    <Grid Grid.Row="1" Margin="1">
+                        <Border BorderBrush="Gray" BorderThickness="1" Margin="1">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="25"></RowDefinition>
+                                    <RowDefinition Height="5"></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <WrapPanel Grid.Row="0">
+                                    <Label Content="View By: "  ></Label>
+                                    <Button Name="btnSummarized" Content="Summarized"></Button>
+                                    <Button Name="btnbyProduct" Content="By Product"></Button>
+                                    <Label Content="Show : "  ></Label>
+                                    <DatePicker Name="dtfrom" ></DatePicker>
+                                    <DatePicker Name="dtto" ></DatePicker>
+                                    <CheckBox Name="checkbxDailysale" Content="Daily Sale" FontSize="12"></CheckBox>
+                                </WrapPanel>
+                                <Grid Grid.Row="1" Background="Gray">
+
+                                </Grid>
+                                <Grid Grid.Row="2">
+                                    <DataGrid></DataGrid>
+                                </Grid>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                </Grid>
+            </TabItem>
+            --><!--<TabItem Header="Stock Transactions">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" Margin="1">
+                        <Border BorderBrush="Gray" BorderThickness="1" Margin="1">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Button Grid.Column="0" Margin="0.5" Content="New Sale (F3)" Name="MenuAdd" Click="MenuAdd_Click"></Button>
+                                <Button Grid.Column="1" Margin="0.5" Content="Order (F4)" Name="MenuEdit" Click="MenuEdit_Click"></Button>
+                                <Button Grid.Column="2" Margin="0.5" Content="Edit" Name="MenuDelete" Click="MenuDelete_Click"></Button>
+                                <Button Grid.Column="3" Margin="0.5" Content="Stock" Name="MenuStock" Click="MenuStock_Click"></Button>
+                                <Button Grid.Column="4" Margin="0.5" Content="Label" Name="MenuLabel" Click="MenuLabel_Click"></Button>
+                                <Button Grid.Column="5" Margin="0.5" Content="Add Expiration Date" Name="MenuExpiry" Click="MenuExpiry_Click"></Button>
+                                <Button Grid.Column="5" Margin="0.5" Content="Disable Product" Name="MenuDisableProduct" Click="MenuDisableProduct_Click"></Button>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                    <Grid Grid.Row="1" Margin="1">
+                        <Border BorderBrush="Gray" BorderThickness="1" Margin="1">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="25"></RowDefinition>
+                                    <RowDefinition Height="5"></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <WrapPanel Grid.Row="0">
+                                    <Label Content="View By: "  ></Label>
+                                    <Button Name="btnSummarized" Content="Summarized"></Button>
+                                    <Button Name="btnbyProduct" Content="By Product"></Button>
+                                    <Label Content="Show : "  ></Label>
+                                    <DatePicker Name="dtfrom" ></DatePicker>
+                                    <DatePicker Name="dtto" ></DatePicker>
+                                    <CheckBox Name="checkbxDailysale" Content="Daily Sale" FontSize="12"></CheckBox>
+                                </WrapPanel>
+                                <Grid Grid.Row="1" Background="Gray">
+
+                                </Grid>
+                                <Grid Grid.Row="2">
+                                    <DataGrid></DataGrid>
+                                </Grid>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                </Grid>
+            </TabItem>--><!--
+            <TabItem Header="suppliers">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" Margin="1">
+                        <Border BorderBrush="Gray" BorderThickness="1" Margin="1">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Button Grid.Column="0" Margin="0.5" Content="New" Name="MenuAddSupplier" Click="MenuAddSupplier_Click"></Button>
+                                <Button Grid.Column="1" Margin="0.5" Content="Order (F4)" Name="MenuEditSupplier" Click="MenuEditSupplier_Click"></Button>
+                                <Button Grid.Column="2" Margin="0.5" Content="Edit" Name="MenuDeletesupplier" Click="MenuDeletesupplier_Click"></Button>
+                                <Button Grid.Column="2" Margin="0.5" Content="Edit" Name="MenuDeletePrint" Click="MenuDeletePrint_Click"></Button>
+
+                            </Grid>
+                        </Border>
+                    </Grid>
+                    <Grid Grid.Row="1" Margin="1">
+                        <Border BorderBrush="Gray" BorderThickness="1" Margin="1">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="25"></RowDefinition>
+                                    <RowDefinition Height="5"></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <WrapPanel Grid.Row="0">
+                                    <RadioButton Name="RadioBtnSupplier" GroupName="Supplier" Content="Supplier"></RadioButton>
+                                    <RadioButton Name="RadioBtnCarrier" GroupName="Supplier" Content="Carrier"></RadioButton>
+                                    <RadioButton Name="RadioBtnTransporation" GroupName="Supplier" Content="Transporation"></RadioButton>
+                                </WrapPanel>
+                                <Grid Grid.Row="1" Background="Gray">
+
+                                </Grid>
+                                <Grid Grid.Row="2">
+                                    <DataGrid></DataGrid>
+                                </Grid>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Expiration Date Control">
+
+            </TabItem>
+            <TabItem Header="Inventry">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" Margin="1">
+                        <Border BorderBrush="Gray" BorderThickness="1" Margin="1">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Button Grid.Column="0" Margin="0.5" Content="New"  Name="menuNewInventory" Click="menuNewInventory_Click"></Button>
+                                <Button Grid.Column="1" Margin="0.5" Content="Edit" Name="MenuEditInventory" Click="MenuEditInventory_Click"></Button>
+                                <Button Grid.Column="2" Margin="0.5" Content="Delete" Name="MenuDeleteInventory" Click="MenuDeleteInventory_Click"></Button>
+                                <Button Grid.Column="3" Margin="0.5" Content="Update Stock" Name="MenuStockInventory" Click="MenuStockInventory_Click"></Button>
+                                <Button Grid.Column="4" Margin="0.5" Content="Save" Name="menuSaveInventory" Click="menuSaveInventory_Click"></Button>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                    <Grid Grid.Row="1" Margin="1">
+                        <Border BorderBrush="Gray" BorderThickness="1" Margin="1">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="25"></RowDefinition>
+                                    <RowDefinition Height="5"></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+
+                                <Grid Grid.Row="1" Background="Gray">
+
+                                </Grid>
+                                <Grid Grid.Row="2">
+                                    <DataGrid></DataGrid>
+                                </Grid>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+
+    </Grid>-->
+</Page>

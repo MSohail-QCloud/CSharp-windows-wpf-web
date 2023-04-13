@@ -1,0 +1,38 @@
+﻿<Page x:Class="NexusPOS_wpf.User"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NexusPOS_wpf"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="User">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Margin="1">
+            <Border BorderBrush="Gray" BorderThickness="1" Margin="1">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0" Margin="0.5" Content="Add " Name="MenuAddCust" ></Button>
+                    <Button Grid.Column="1" Margin="0.5" Content="Edit" Name="MenuEditC" ></Button>
+                    <Button Grid.Column="2" Margin="0.5" Content="Delete" Name="MenuDeleteC" ></Button>
+                    <Button Grid.Column="3" Margin="0.5" Content="DeActive User" Name="MenuDeActive" ></Button>
+                </Grid>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="1" Margin="1">
+            <Border BorderBrush="Gray" BorderThickness="1" Margin="1">
+                <DataGrid></DataGrid>
+            </Border>
+        </Grid>
+    </Grid>
+</Page>

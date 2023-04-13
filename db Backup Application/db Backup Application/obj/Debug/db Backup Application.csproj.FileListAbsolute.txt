@@ -1,0 +1,6 @@
+E:\my project\db Backup Application\db Backup Application\bin\Debug\db Backup Application.exe.config
+E:\my project\db Backup Application\db Backup Application\obj\Debug\db Backup Application.csprojResolveAssemblyReference.cache
+E:\my project\db Backup Application\db Backup Application\obj\Debug\db_Backup_Application.Form1.resources
+E:\my project\db Backup Application\db Backup Application\obj\Debug\db_Backup_Application.Properties.Resources.resources
+E:\my project\db Backup Application\db Backup Application\obj\Debug\db Backup Application.csproj.GenerateResource.Cache
+E:\my project\db Backup Application\db Backup Application\obj\Debug\db Backup Application.csproj.db Backup Application.exe.config
