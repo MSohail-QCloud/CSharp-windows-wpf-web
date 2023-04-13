@@ -1,0 +1,45 @@
+﻿			base.OnKeyPress(e);
+            if (e.KeyChar != (char)8 && !char.IsNumber(e.KeyChar))
+            {
+                e.Handled = true;
+            }					
+//keydown
+			 if (e.KeyCode == Keys.Enter)
+            {
+                btnRegSupplier.Focus();
+            }
+
+			//connection open
+
+			if (sqlcon.State != ConnectionState.Open)
+            {
+                sqlcon.Open();
+            } 
+
+			if (sqlcon.State != ConnectionState.Closed)
+            {
+                sqlcon.Close();
+            }
+
+			//formate button
+			https://www.wpf-tutorial.com/basic-controls/the-button-control/
+
+
+			<Button Padding="5">  
+    <StackPanel Orientation="Horizontal">  
+    <Image Source="/WpfTutorialSamples;component/Images/help.png" />  
+    <TextBlock Margin="5,0">Help</TextBlock>  
+    </StackPanel>  
+</Button>
+
+
+			try
+            {
+
+            }
+            catch(Exception es)
+            {
+                LblErrorMsg.Text = es.Message;
+            }
+
+			 e.SuppressKeyPress = true;//to stop sound

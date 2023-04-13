@@ -1,0 +1,22 @@
+﻿<Window x:Class="ColonyMarket.LoginForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ColonyMarket"
+        mc:Ignorable="d"
+        Title="LoginForm" Height="436.09" Width="418" AllowsTransparency="True" WindowStyle="None" Loaded="LoginForm_OnLoaded" KeyDown="LoginForm_OnKeyDown" WindowStartupLocation="CenterScreen" ShowInTaskbar="False"   >
+    <Window.Background>
+        <ImageBrush ImageSource="img/vLogin.jpeg"/>
+    </Window.Background>
+    <Grid>
+        <TextBox HorizontalAlignment="Center" Name="txtUsername" Text="" BorderThickness="0,0,0,1" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="199.841,173.33,22.046,234.76" Width="196.113" Height="28" FontSize="15" Background="{x:Null}"></TextBox>
+        <PasswordBox Name="txtPassword" Password="" HorizontalAlignment="Center" BorderThickness="0,0,0,1"  VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="199.841,244.639,22.046,163.451" Width="196.113" Height="28" FontSize="15" Background="{x:Null}"></PasswordBox>
+        <!--<TextBox IsReadOnly="True" TextChanged="lblbrowsepath_TextChanged" Text="" Background="Transparent" BorderBrush="Transparent" BorderThickness="2" Name="lblbrowsepath"  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="199.842,289.284,22.046,118.489" Width="196.112" Height="28.317"></TextBox>-->
+        <!--<Label Content="fullpath" Name="lblfullpath" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,350,357.623,24.04"></Label>-->
+        <!--<Button  Name="BtnBrowse" Content="Browse" Foreground="Black" Background="Beige" Click="BtnBrowse_OnClick" Style="{DynamicResource ButtonWithNoMouseOver}"  HorizontalAlignment="Center"  BorderThickness="0,0,0,1" FontSize="10" VerticalAlignment="Center" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="326.135,325.604,37.076,87.028" Width="54.789" Height="23.458">
+        </Button>-->
+        <Button  Name="BtnLogin" Content="Log IN" Foreground="Green" Background="Honeydew" Click="BtnLogin_OnClick" Style="{DynamicResource ButtonWithNoMouseOver}"  HorizontalAlignment="Center"  BorderThickness="0,0,0,1" FontSize="20" VerticalAlignment="Center" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="199.841,311.339,0,84.751" Width="218.159" Height="40">
+        </Button>
+    </Grid>
+</Window>

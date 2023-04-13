@@ -1,0 +1,15 @@
+E:\my project\Backup Application Wpf\Backup Application Wpf\bin\x86\Debug\Backup Application Wpf.exe.config
+E:\my project\Backup Application Wpf\Backup Application Wpf\bin\x86\Debug\Backup Application Wpf.exe
+E:\my project\Backup Application Wpf\Backup Application Wpf\bin\x86\Debug\Backup Application Wpf.pdb
+E:\my project\Backup Application Wpf\Backup Application Wpf\obj\x86\Debug\MainWindow.baml
+E:\my project\Backup Application Wpf\Backup Application Wpf\obj\x86\Debug\WorkWindow.baml
+E:\my project\Backup Application Wpf\Backup Application Wpf\obj\x86\Debug\MainWindow.g.cs
+E:\my project\Backup Application Wpf\Backup Application Wpf\obj\x86\Debug\WorkWindow.g.cs
+E:\my project\Backup Application Wpf\Backup Application Wpf\obj\x86\Debug\App.g.cs
+E:\my project\Backup Application Wpf\Backup Application Wpf\obj\x86\Debug\Backup Application Wpf_MarkupCompile.cache
+E:\my project\Backup Application Wpf\Backup Application Wpf\obj\x86\Debug\Backup Application Wpf.g.resources
+E:\my project\Backup Application Wpf\Backup Application Wpf\obj\x86\Debug\Backup_Application_Wpf.NewBackup.resources
+E:\my project\Backup Application Wpf\Backup Application Wpf\obj\x86\Debug\Backup_Application_Wpf.Properties.Resources.resources
+E:\my project\Backup Application Wpf\Backup Application Wpf\obj\x86\Debug\Backup Application Wpf.csproj.GenerateResource.Cache
+E:\my project\Backup Application Wpf\Backup Application Wpf\obj\x86\Debug\Backup Application Wpf.exe
+E:\my project\Backup Application Wpf\Backup Application Wpf\obj\x86\Debug\Backup Application Wpf.pdb

@@ -1,0 +1,492 @@
+E:\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.exe
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.exe.config
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.exe
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.pdb
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\appdb.accdb
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.exe.manifest
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.application
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.exe
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.pdb
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\FlashControlV71.dll
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\bin\Debug\stdole.dll
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\HypeColonyMarket.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\LoginForm.g.cs
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\MainWindow.g.cs
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\trial.g.cs
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\App.g.cs
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket_Content.g.cs
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket_MarkupCompile.cache
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket_MarkupCompile.lref
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\App.baml
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\LoginForm.baml
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\MainWindow.baml
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\trial.baml
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.g.resources
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.AddaProject.resources
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Agentfrm.resources
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.AllReportform.resources
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.changeDBform.resources
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Form1.resources
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Ledger.resources
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.MyProfile.resources
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Properties.Resources.resources
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Reports.StatPrintExpenses.resources
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Soldfm.resources
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Statistics.resources
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\HypeColonyMarket.csproj.GenerateResource.Cache
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.exe.manifest
+C:\Users\Muhammad Sohail\Desktop\New folder\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.application
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.exe.config
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.exe
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.pdb
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\appdb.accdb
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.exe.manifest
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.application
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.exe
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.pdb
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\FlashControlV71.dll
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\stdole.dll
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\HypeColonyMarket.csprojResolveAssemblyReference.cache
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\LoginForm.g.cs
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\MainWindow.g.cs
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\trial.g.cs
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\App.g.cs
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket_Content.g.cs
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket_MarkupCompile.cache
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket_MarkupCompile.lref
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\App.baml
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\LoginForm.baml
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\MainWindow.baml
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\trial.baml
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.g.resources
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.AddaProject.resources
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Agentfrm.resources
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.AllReportform.resources
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.changeDBform.resources
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Form1.resources
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Ledger.resources
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.MyProfile.resources
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Properties.Resources.resources
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Reports.StatPrintExpenses.resources
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Soldfm.resources
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Statistics.resources
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\HypeColonyMarket.csproj.GenerateResource.Cache
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.exe.manifest
+C:\Users\Sohail\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.application
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.exe.config
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.exe
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.pdb
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\appdb.accdb
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.exe.manifest
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.application
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.exe
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.pdb
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.Shared.dll
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\FlashControlV71.dll
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\ShockwaveFlashObjects.dll
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\stdole.dll
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\LoginForm.g.cs
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\MainWindow.g.cs
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\trial.g.cs
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\App.g.cs
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket_Content.g.cs
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket_MarkupCompile.cache
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket_MarkupCompile.lref
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\App.baml
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\LoginForm.baml
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\MainWindow.baml
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\trial.baml
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.g.resources
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.AddaProject.resources
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Agentfrm.resources
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.AllReportform.resources
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.changeDBform.resources
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Form1.resources
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Ledger.resources
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.MyProfile.resources
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Properties.Resources.resources
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Reports.StatPrintExpenses.resources
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Soldfm.resources
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Statistics.resources
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\HypeColonyMarket.csproj.GenerateResource.Cache
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.exe.manifest
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.application
+E:\OneDrive\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\HypeColonyMarket.csprojResolveAssemblyReference.cache
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.exe.config
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.exe
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.pdb
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\appdb.accdb
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.exe.manifest
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.application
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.exe
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.pdb
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.Shared.dll
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\FlashControlV71.dll
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\ShockwaveFlashObjects.dll
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\bin\Debug\stdole.dll
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\HypeColonyMarket.csprojResolveAssemblyReference.cache
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\LoginForm.g.cs
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\MainWindow.g.cs
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\trial.g.cs
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\App.g.cs
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket_Content.g.cs
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket_MarkupCompile.cache
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket_MarkupCompile.lref
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\App.baml
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\LoginForm.baml
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\MainWindow.baml
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\trial.baml
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.g.resources
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.AddaProject.resources
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Agentfrm.resources
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.AllReportform.resources
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.changeDBform.resources
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Form1.resources
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Ledger.resources
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.MyProfile.resources
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Properties.Resources.resources
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Reports.StatPrintExpenses.resources
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Soldfm.resources
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Statistics.resources
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\HypeColonyMarket.csproj.GenerateResource.Cache
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.exe.manifest
+E:\New folder\Hypercolony\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.application
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\bin\Debug\ColonyMarket.exe.config
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\ColonyMarket.exe
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\ColonyMarket.pdb
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\bin\Debug\appdb.accdb
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\bin\Debug\ColonyMarket.exe.manifest
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\bin\Debug\ColonyMarket.application
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\bin\Debug\ColonyMarket.exe
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\bin\Debug\ColonyMarket.pdb
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\HypeColonyMarket.csprojResolveAssemblyReference.cache
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\LoginForm.g.cs
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\MainWindow.g.cs
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\trial.g.cs
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\App.g.cs
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\ColonyMarket_Content.g.cs
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\ColonyMarket_MarkupCompile.cache
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\ColonyMarket_MarkupCompile.lref
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\App.baml
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\LoginForm.baml
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\MainWindow.baml
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\trial.baml
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\ColonyMarket.g.resources
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\ColonyMarket.AddaProject.resources
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\ColonyMarket.Agentfrm.resources
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\ColonyMarket.AllReportform.resources
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\ColonyMarket.changeDBform.resources
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\ColonyMarket.Form1.resources
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\ColonyMarket.CloseDealfm.resources
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\ColonyMarket.Ledger.resources
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\ColonyMarket.MyProfile.resources
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\ColonyMarket.Properties.Resources.resources
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\ColonyMarket.Reports.StatPrintExpenses.resources
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\ColonyMarket.Soldfm.resources
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\ColonyMarket.Statistics.resources
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\HypeColonyMarket.csproj.GenerateResource.Cache
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\ColonyMarket.exe.manifest
+C:\Users\Mohsin Pc\Desktop\New folder\New folder\ColonyMarket\obj\Debug\ColonyMarket.application
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\ColonyMarket.exe.config
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\ColonyMarket.exe
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\ColonyMarket.pdb
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\appdb.accdb
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\ColonyMarket.exe.manifest
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\ColonyMarket.application
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\ColonyMarket.exe
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\ColonyMarket.pdb
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\CrystalDecisions.Shared.dll
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\FlashControlV71.dll
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\ShockwaveFlashObjects.dll
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\ColonyMarket\New folder\ColonyMarket\bin\Debug\stdole.dll
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\HypeColonyMarket.csprojResolveAssemblyReference.cache
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\LoginForm.g.cs
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\MainWindow.g.cs
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\trial.g.cs
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\App.g.cs
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\ColonyMarket_Content.g.cs
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\ColonyMarket_MarkupCompile.cache
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\ColonyMarket_MarkupCompile.lref
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\App.baml
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\LoginForm.baml
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\MainWindow.baml
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\trial.baml
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\ColonyMarket.g.resources
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\ColonyMarket.AddaProject.resources
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\ColonyMarket.Agentfrm.resources
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\ColonyMarket.AllReportform.resources
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\ColonyMarket.changeDBform.resources
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\ColonyMarket.Form1.resources
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\ColonyMarket.CloseDealfm.resources
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\ColonyMarket.Ledger.resources
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\ColonyMarket.MyProfile.resources
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\ColonyMarket.Properties.Resources.resources
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\ColonyMarket.Reports.StatPrintExpenses.resources
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\ColonyMarket.Soldfm.resources
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\ColonyMarket.Statistics.resources
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\HypeColonyMarket.csproj.GenerateResource.Cache
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\ColonyMarket.exe.manifest
+E:\ColonyMarket\New folder\ColonyMarket\obj\Debug\ColonyMarket.application
+E:\ColonyMarket\ColonyMarket\bin\Debug\appdb.accdb
+E:\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.exe.config
+E:\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.exe.manifest
+E:\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.application
+E:\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.Shared.dll
+E:\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\ColonyMarket\ColonyMarket\bin\Debug\FlashControlV71.dll
+E:\ColonyMarket\ColonyMarket\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\ColonyMarket\ColonyMarket\bin\Debug\ShockwaveFlashObjects.dll
+E:\ColonyMarket\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\ColonyMarket\ColonyMarket\bin\Debug\stdole.dll
+E:\ColonyMarket\ColonyMarket\obj\Debug\LoginForm.g.cs
+E:\ColonyMarket\ColonyMarket\obj\Debug\MainWindow.g.cs
+E:\ColonyMarket\ColonyMarket\obj\Debug\trial.g.cs
+E:\ColonyMarket\ColonyMarket\obj\Debug\App.g.cs
+E:\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket_Content.g.cs
+E:\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket_MarkupCompile.cache
+E:\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket_MarkupCompile.lref
+E:\ColonyMarket\ColonyMarket\obj\Debug\App.baml
+E:\ColonyMarket\ColonyMarket\obj\Debug\LoginForm.baml
+E:\ColonyMarket\ColonyMarket\obj\Debug\MainWindow.baml
+E:\ColonyMarket\ColonyMarket\obj\Debug\trial.baml
+E:\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.g.resources
+E:\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.AddaProject.resources
+E:\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Agentfrm.resources
+E:\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.AllReportform.resources
+E:\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.changeDBform.resources
+E:\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Form1.resources
+E:\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.CloseDealfm.resources
+E:\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Ledger.resources
+E:\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.MyProfile.resources
+E:\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Properties.Resources.resources
+E:\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Reports.StatPrintExpenses.resources
+E:\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Soldfm.resources
+E:\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.Statistics.resources
+E:\ColonyMarket\ColonyMarket\obj\Debug\HypeColonyMarket.csproj.GenerateResource.Cache
+E:\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.exe.manifest
+E:\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.application
+E:\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.exe
+E:\ColonyMarket\ColonyMarket\obj\Debug\ColonyMarket.pdb
+E:\ColonyMarket\ColonyMarket\bin\Debug\ColonyMarket.pdb
+E:\ColonyMarket\ColonyMarket\obj\Debug\HypeColonyMarket.csprojResolveAssemblyReference.cache
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\ColonyMarket.exe.config
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\ColonyMarket.exe
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\ColonyMarket.pdb
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\appdb.accdb
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\ColonyMarket.exe.manifest
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\ColonyMarket.application
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\ColonyMarket.exe
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\ColonyMarket.pdb
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\CrystalDecisions.Shared.dll
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\FlashControlV71.dll
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\ShockwaveFlashObjects.dll
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\ColonyMarket old\New folder\ColonyMarket\bin\Debug\stdole.dll
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\HypeColonyMarket.csprojResolveAssemblyReference.cache
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\LoginForm.g.cs
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\MainWindow.g.cs
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\trial.g.cs
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\App.g.cs
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\ColonyMarket_Content.g.cs
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\ColonyMarket_MarkupCompile.cache
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\ColonyMarket_MarkupCompile.lref
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\App.baml
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\LoginForm.baml
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\MainWindow.baml
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\trial.baml
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\ColonyMarket.g.resources
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\ColonyMarket.AddaProject.resources
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\ColonyMarket.Agentfrm.resources
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\ColonyMarket.AllReportform.resources
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\ColonyMarket.changeDBform.resources
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\ColonyMarket.Form1.resources
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\ColonyMarket.CloseDealfm.resources
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\ColonyMarket.Ledger.resources
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\ColonyMarket.MyProfile.resources
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\ColonyMarket.Properties.Resources.resources
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\ColonyMarket.Reports.StatPrintExpenses.resources
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\ColonyMarket.Soldfm.resources
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\ColonyMarket.Statistics.resources
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\HypeColonyMarket.csproj.GenerateResource.Cache
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\ColonyMarket.exe.manifest
+E:\ColonyMarket old\New folder\ColonyMarket\obj\Debug\ColonyMarket.application
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\ColonyMarket.exe.config
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\ColonyMarket.exe
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\ColonyMarket.pdb
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\appdb.accdb
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\ColonyMarket.exe.manifest
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\ColonyMarket.application
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\ColonyMarket.exe
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\ColonyMarket.pdb
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\FlashControlV71.dll
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\bin\Debug\stdole.dll
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\HypeColonyMarket.csprojResolveAssemblyReference.cache
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\LoginForm.g.cs
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\MainWindow.g.cs
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\trial.g.cs
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\App.g.cs
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\ColonyMarket_Content.g.cs
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\ColonyMarket_MarkupCompile.cache
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\ColonyMarket_MarkupCompile.lref
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\App.baml
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\LoginForm.baml
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\MainWindow.baml
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\trial.baml
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\ColonyMarket.g.resources
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\ColonyMarket.AddaProject.resources
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\ColonyMarket.Agentfrm.resources
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\ColonyMarket.AllReportform.resources
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\ColonyMarket.changeDBform.resources
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\ColonyMarket.Form1.resources
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\ColonyMarket.CloseDealfm.resources
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\ColonyMarket.Ledger.resources
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\ColonyMarket.MyProfile.resources
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\ColonyMarket.Properties.Resources.resources
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\ColonyMarket.Reports.StatPrintExpenses.resources
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\ColonyMarket.Soldfm.resources
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\ColonyMarket.Statistics.resources
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\HypeColonyMarket.csproj.GenerateResource.Cache
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\ColonyMarket.exe.manifest
+C:\Users\Sohail\Desktop\New folder\ColonyMarket\obj\Debug\ColonyMarket.application
+F:\my project\Csharp-HyperColony\ColonyMarket\bin\Debug\ColonyMarket.exe.config
+F:\my project\Csharp-HyperColony\ColonyMarket\obj\Debug\ColonyMarket.exe
+F:\my project\Csharp-HyperColony\ColonyMarket\obj\Debug\ColonyMarket.pdb

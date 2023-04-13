@@ -1,0 +1,7 @@
+D:\VesterShoes\Csharp-VesterShoes\WaitWnd\bin\Debug\WaitWnd.dll
+D:\VesterShoes\Csharp-VesterShoes\WaitWnd\bin\Debug\WaitWnd.pdb
+D:\VesterShoes\Csharp-VesterShoes\WaitWnd\obj\Debug\WaitWnd.Resource1.resources
+D:\VesterShoes\Csharp-VesterShoes\WaitWnd\obj\Debug\WaitWnd.WaitForm.resources
+D:\VesterShoes\Csharp-VesterShoes\WaitWnd\obj\Debug\WaitWnd.csproj.GenerateResource.Cache
+D:\VesterShoes\Csharp-VesterShoes\WaitWnd\obj\Debug\WaitWnd.dll
+D:\VesterShoes\Csharp-VesterShoes\WaitWnd\obj\Debug\WaitWnd.pdb

@@ -1,0 +1,63 @@
+C:\Users\ludi\AppData\Local\Temporary Projects\menutest\bin\Debug\menutest.exe
+C:\Users\ludi\AppData\Local\Temporary Projects\menutest\bin\Debug\menutest.pdb
+C:\Users\ludi\AppData\Local\Temporary Projects\menutest\obj\x86\Debug\menutest.Form1.resources
+C:\Users\ludi\AppData\Local\Temporary Projects\menutest\obj\x86\Debug\menutest.Properties.Resources.resources
+C:\Users\ludi\AppData\Local\Temporary Projects\menutest\obj\x86\Debug\menutest.csproj.GenerateResource.Cache
+C:\Users\ludi\AppData\Local\Temporary Projects\menutest\obj\x86\Debug\menutest.exe
+C:\Users\ludi\AppData\Local\Temporary Projects\menutest\obj\x86\Debug\menutest.pdb
+C:\Users\ludi\AppData\Local\Temporary Projects\menutest\obj\x86\Debug\menutest.UserRole.resources
+C:\Users\ludi\documents\visual studio 2010\Projects\menutest\menutest\obj\x86\Debug\menutest.exe
+C:\Users\ludi\documents\visual studio 2010\Projects\menutest\menutest\bin\Debug\menutest.exe.config
+C:\Users\ludi\documents\visual studio 2010\Projects\menutest\menutest\obj\x86\Debug\menutest.csprojResolveAssemblyReference.cache
+C:\Users\ludi\documents\visual studio 2010\Projects\menutest\menutest\obj\x86\Debug\menutest.FrmParent.resources
+C:\Users\ludi\documents\visual studio 2010\Projects\menutest\menutest\obj\x86\Debug\menutest.Login.resources
+C:\Users\ludi\documents\visual studio 2010\Projects\menutest\menutest\obj\x86\Debug\menutest.UserRole.resources
+C:\Users\ludi\documents\visual studio 2010\Projects\menutest\menutest\obj\x86\Debug\menutest.Properties.Resources.resources
+C:\Users\ludi\documents\visual studio 2010\Projects\menutest\menutest\obj\x86\Debug\menutest.csproj.GenerateResource.Cache
+C:\Users\ludi\documents\visual studio 2010\Projects\menutest\menutest\bin\Debug\menutest.exe
+C:\Users\ludi\documents\visual studio 2010\Projects\menutest\menutest\bin\Debug\menutest.pdb
+C:\Users\ludi\documents\visual studio 2010\Projects\menutest\menutest\obj\x86\Debug\menutest.pdb
+C:\Users\ludi\documents\visual studio 2010\Projects\menutest\menutest\obj\x86\Debug\menutest.FrmAccount.resources
+C:\Users\ludi\documents\visual studio 2010\Projects\menutest\menutest\obj\x86\Debug\menutest.FrmFinance.resources
+C:\Users\ludi\documents\visual studio 2010\Projects\menutest\menutest\obj\x86\Debug\menutest.ManageUser.resources
+C:\Users\Muhammad Sohail\Desktop\New folder (2)\menutest\menutest\bin\Debug\menutest.exe.config
+C:\Users\Muhammad Sohail\Desktop\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.exe
+C:\Users\Muhammad Sohail\Desktop\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.pdb
+D:\New folder (2)\menutest\menutest\bin\Debug\menutest.exe.config
+D:\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.exe
+D:\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.pdb
+D:\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.FrmAccount.resources
+D:\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.FrmFinance.resources
+D:\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.FrmParent.resources
+D:\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.Login.resources
+D:\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.ManageUser.resources
+D:\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.UserRole.resources
+D:\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.Properties.Resources.resources
+D:\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.csproj.GenerateResource.Cache
+D:\New folder (2)\menutest\menutest\bin\Debug\menutest.exe
+D:\New folder (2)\menutest\menutest\bin\Debug\menutest.pdb
+C:\Users\Muhammad Sohail\Desktop\New folder (2)\menutest\menutest\bin\Debug\menutest.exe
+C:\Users\Muhammad Sohail\Desktop\New folder (2)\menutest\menutest\bin\Debug\menutest.pdb
+C:\Users\Muhammad Sohail\Desktop\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad Sohail\Desktop\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.FrmAccount.resources
+C:\Users\Muhammad Sohail\Desktop\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.FrmFinance.resources
+C:\Users\Muhammad Sohail\Desktop\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.FrmParent.resources
+C:\Users\Muhammad Sohail\Desktop\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.Login.resources
+C:\Users\Muhammad Sohail\Desktop\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.ManageUser.resources
+C:\Users\Muhammad Sohail\Desktop\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.UserRole.resources
+C:\Users\Muhammad Sohail\Desktop\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.Properties.Resources.resources
+C:\Users\Muhammad Sohail\Desktop\New folder (2)\menutest\menutest\obj\x86\Debug\menutest.csproj.GenerateResource.Cache
+E:\my project\abcstore\menuetest\menutest\menutest\bin\Debug\menutest.exe.config
+E:\my project\abcstore\menuetest\menutest\menutest\obj\x86\Debug\menutest.exe
+E:\my project\abcstore\menuetest\menutest\menutest\obj\x86\Debug\menutest.pdb
+E:\my project\abcstore\menuetest\menutest\menutest\bin\Debug\menutest.exe
+E:\my project\abcstore\menuetest\menutest\menutest\bin\Debug\menutest.pdb
+E:\my project\abcstore\menuetest\menutest\menutest\obj\x86\Debug\menutest.csprojResolveAssemblyReference.cache
+E:\my project\abcstore\menuetest\menutest\menutest\obj\x86\Debug\menutest.FrmAccount.resources
+E:\my project\abcstore\menuetest\menutest\menutest\obj\x86\Debug\menutest.FrmFinance.resources
+E:\my project\abcstore\menuetest\menutest\menutest\obj\x86\Debug\menutest.FrmParent.resources
+E:\my project\abcstore\menuetest\menutest\menutest\obj\x86\Debug\menutest.Login.resources
+E:\my project\abcstore\menuetest\menutest\menutest\obj\x86\Debug\menutest.ManageUser.resources
+E:\my project\abcstore\menuetest\menutest\menutest\obj\x86\Debug\menutest.UserRole.resources
+E:\my project\abcstore\menuetest\menutest\menutest\obj\x86\Debug\menutest.Properties.Resources.resources
+E:\my project\abcstore\menuetest\menutest\menutest\obj\x86\Debug\menutest.csproj.GenerateResource.Cache

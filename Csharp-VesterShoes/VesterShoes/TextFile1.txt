@@ -1,0 +1,60 @@
+﻿changes: select a.ledgerid,convert(varchar, a.ledgerdate,105)as ledgerdate,
+
+
+			base.OnKeyPress(e);
+            if (e.KeyChar != (char)8 && !char.IsNumber(e.KeyChar))
+            {
+                e.Handled = true;
+            }					
+//keydown
+			 if (e.KeyCode == Keys.Enter)
+            {
+                btnRegSupplier.Focus();
+            }
+
+			//connection open
+
+			if (sqlcon.State != ConnectionState.Open)
+            {
+                sqlcon.Open();
+            } 
+
+			if (sqlcon.State != ConnectionState.Closed)
+            {
+                sqlcon.Close();
+            }
+
+			//formate button
+			https://www.wpf-tutorial.com/basic-controls/the-button-control/
+
+			https://support.flexquarters.com/esupport/index.php?/Knowledgebase/Article/View/2932/91/qodbc-all-how-to-export-quickbooks-invoices-into-crystal-report-format
+
+			<Button Padding="5">  
+    <StackPanel Orientation="Horizontal">  
+    <Image Source="/WpfTutorialSamples;component/Images/help.png" />  
+    <TextBlock Margin="5,0">Help</TextBlock>  
+    </StackPanel>  
+</Button>
+
+// ledger queryy
+
+if (TxtSearchVenderLedgerId.Text != "")
+            {
+                DataSet ds = new DataSet();
+                ds = vc.Select("select x.datetime,x.ledgerID, x.ProfileId, x.EventID,(sum(y.bal) - x.CreditAmount) + x.DebitAmount Opening_Balance,x.CreditAmount, x.DebitAmount, sum(y.bal) Closing_Balance from (select *, CreditAmount - DebitAmount bal from tblLedger where ProfileId = '" + TxtSearchVenderLedgerId.Text + "'and datetime>='" + VenderLedgerFromDatePicker.SelectedDate + "' and datetime <='" + VenderLedgerToDatePicker.SelectedDate + "' ) x join (select *, CreditAmount - DebitAmount bal from tblLedger where ProfileId = '" + TxtSearchVenderLedgerId.Text + "' and datetime>='" + VenderLedgerFromDatePicker.SelectedDate + "' and datetime <='" + VenderLedgerToDatePicker.SelectedDate + "') y ON y.ledgerID <= x.ledgerID where x.ProfileId = '" + TxtSearchVenderLedgerId.Text + "'and x.datetime>='" + VenderLedgerFromDatePicker.SelectedDate + "' and x.datetime <='" + VenderLedgerToDatePicker.SelectedDate + "' group by x.ledgerID, x.ProfileId, x.EventID, x.CreditAmount, x.DebitAmount, x.datetime ");
+                if (sqlcon.State != ConnectionState.Closed)
+                {
+                    sqlcon.Close();
+                }
+                //gridVenderLedger.ItemsSource = ds.Tables[0].DefaultView;
+                //gridVenderLedger.DisplayMemberPath = ds.Tables[0].Columns[0].ToString();
+                //int ope = f.findnumber("select (SUM(CreditAmount)-SUM(DebitAmount))as Opening from tblLedger where LedgerTypeID='2' and ProfileId='" + TxtSearchVenderLedgerId.Text + "' and datetime > = '" + VenderLedgerFromDatePicker.SelectedDate + "'");
+                //lbltestopening.Content = ope.ToString();
+                //int bal = f.findnumber("select (SUM(CreditAmount)-SUM(DebitAmount))as Balance from tblLedger where LedgerTypeID='2' and ProfileId='" + TxtSearchVenderLedgerId.Text + "' and datetime <= '" + VenderLedgerToDatePicker.SelectedDate + "'");
+                //txtVenderLedgerBalance.Text = bal.ToString();
+            }
+
+			//q end
+
+ledgerID	LedgerTypeID	EventID	ProfileId	DebitAmount	CreditAmount	datetime	            SpecialNOte	        VenderAccountID	Active	updateby	updatein	updateon	Remarks	ProfileId	PName	PGaurdianName	PCompanyName	Pmobile	POfficeNumber	PCnic	Paddress	PhomeAddress	PType	vender_type_id	comm_careoff	PGaurdianNameID	Active	updateby	updatein	updateon
+30	        1	            2	    41	        0	        22800	        2021-11-21 14:28:51.000	Customer Invoice	NULL	            1	zain	hp~KALEEM-PC	2021-11-21 14:28:51.000	NULL	41	MEHMOOD                       	BILAL BOOT HOUSE              	BILAL BOOT HOUSE              	03217740598		             	MANDI BAHAUDDIN		0	0	0	64	1	Admin	hp~KALEEM-PC	2021-11-27 17:27:57.000

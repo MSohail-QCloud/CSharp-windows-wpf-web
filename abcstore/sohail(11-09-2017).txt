@@ -1,0 +1,98 @@
+ if (ds.Tables["user"] != null)
+            {
+                ds.Tables["user"].Clear();
+            }
+            string department = "select * from abc where USERNAME='" + user + "' and PASSWD='" + pass + "'";
+            OleDbConnection myConnectionDept = new OleDbConnection(oracleConnection);
+            OleDbCommand myCommand = new OleDbCommand(department, myConnectionDept);
+            myCommand.Parameters.Add("@p1", OleDbType.Char, 5).Value = "Test%";
+            myConnectionDept.Open();
+            OleDbDataAdapter da = new OleDbDataAdapter(department, myConnectionDept);
+            da.Fill(ds, "user");
+            myConnectionDept.Close();
+            if (ds.Tables["user"].Rows.Count > 0)
+            {
+
+                pictureBox3.Visible = true;
+                label6.Visible = true;
+                lblName.Visible = true;
+                formsToolStripMenuItem.Visible = true;
+                lblName.Text = ds.Tables["user"].Rows[0]["USERNAME"].ToString();
+                groupBox1.Visible = false;
+                ToolStripMenuItem MnuItems = new ToolStripMenuItem();
+                string userId = ds.Tables["user"].Rows[0]["USERID"].ToString();
+                if (ds.Tables["menu"] != null)
+                {
+                    ds.Tables["menu"].Clear();
+                }
+                String menu = "select * from abc U inner join xyz M on U.MODULEID=M.MODULEID where userId='" + userId + "' AND U.rights='1'";
+                OleDbConnection myConnectionmenu = new OleDbConnection(oracleConnection);
+                OleDbCommand myCommandmenu = new OleDbCommand(menu, myConnectionmenu);
+                myCommandmenu.Parameters.Add("@p1", OleDbType.Char, 5).Value = "Test%";
+                myConnectionmenu.Open();
+                OleDbDataAdapter damenu = new OleDbDataAdapter(menu, myConnectionmenu);
+                damenu.Fill(ds, "menu");
+                myConnectionmenu.Close();
+                int i;
+                formsToolStripMenuItem.DropDownItems.Clear();
+                for (i = 0; i < ds.Tables["menu"].Rows.Count; i++)
+                {
+                    string str = ds.Tables["menu"].Rows[i]["MODULEDESC"].ToString();
+                    ToolStripMenuItem SSMenu = new ToolStripMenuItem(str, null, ChildClick);
+                    formsToolStripMenuItem.DropDownItems.Add(SSMenu);
+                    changePasswordToolStripMenuItem.Visible = true;
+                }
+            }
+
+
+
+//CHILD EVENT
+
+  public void ChildClick(object sender, System.EventArgs e)
+        {
+            string frmName = sender.ToString();
+            if (frmName == "CHEMICAL REGISTRATION")
+            {
+                Form2 newMDIChild = new Form2();
+                newMDIChild.Show();
+                newMDIChild.MdiParent = this;
+                pictureBox1.Hide();
+                //label3.Hide();
+                panel1.Hide();
+                panel2.Hide();
+            }
+
+            //string frmName1 = sender.ToString();
+            if (frmName == "NEW RECIPES")
+            {
+                newRecipe newMDIChild1 = new newRecipe();
+                newMDIChild1.Show();
+                newMDIChild1.MdiParent = this;
+                pictureBox1.Hide();
+                //label3.Hide();
+                panel1.Hide();
+                panel2.Hide();
+            }
+
+            if (frmName == "BATCH ENTRY")
+            {
+                batchEntry newMDIChild2 = new batchEntry();
+                newMDIChild2.Show();
+                newMDIChild2.MdiParent = this;
+                pictureBox1.Hide();
+                //label3.Hide();
+                panel1.Hide();
+                panel2.Hide();
+            }
+
+            if (frmName == "MANUAL BATCH ENTRY FORM")
+            {
+                batchEntryManual newMDIChild3 = new batchEntryManual();
+                newMDIChild3.Show();
+                newMDIChild3.MdiParent = this;
+                pictureBox1.Hide();
+                //label3.Hide();
+                panel1.Hide();
+                panel2.Hide();
+            }
+        }

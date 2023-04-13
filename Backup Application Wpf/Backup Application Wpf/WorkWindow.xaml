@@ -1,0 +1,64 @@
+﻿<Window x:Class="Backup_Application_Wpf.WorkWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Work Window" Height="800" Width="1200" WindowState="Maximized" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid>
+        <!--sql backup-->
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left"  Height="218" Margin="222,25,0,0" Stroke="Black" VerticalAlignment="Top" Width="900" OpacityMask="Black">
+
+        </Rectangle>
+        <Button x:Name="btnLoadSqlBackup"  Background="LightPink" Foreground="Red"  Content="Load Sql Backup" HorizontalAlignment="Left" Margin="100,50,0,0" VerticalAlignment="Top" Width="100" Height="30" OpacityMask="Black" Click="btnLoadSqlBackup_Click"/>
+        <Label x:Name="LblSRNumber" Content="Destination IP" HorizontalAlignment="Left" Margin="995,50,0,0" VerticalAlignment="Top" Width="103" BorderBrush="Black" BorderThickness="1" OpacityMask="Black"/>
+        <Button x:Name="btnStartsqlBackup"  Background="LightPink" Foreground="Red"  Content="Start Backup" HorizontalAlignment="Left" Margin="969,145,0,0" VerticalAlignment="Top" Width="136" Height="55" OpacityMask="Black"/>
+
+
+
+        <!--end Sql Backup-->
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left"  Height="218" Margin="222,436,0,0" Stroke="Black" VerticalAlignment="Top" Width="900" OpacityMask="Black">
+
+        </Rectangle>
+
+
+        <Menu HorizontalAlignment="Left"  VerticalAlignment="Top" Width="100" Margin="0,10,0,0">
+            <MenuItem Header="Add New Backup" Click="MenuItem_OnClick"/>
+        </Menu>
+
+        <Button x:Name="btn_Close" Click="Btn_Close_OnClick" Background="LightPink" Foreground="Red"  Content="Exit" HorizontalAlignment="Left" Margin="986,676,0,0" VerticalAlignment="Top" Width="136" Height="55" OpacityMask="Black"/>
+        <Label Name="Lbl_count" Content="Count" HorizontalAlignment="Left" Margin="679,453,0,0" VerticalAlignment="Top" Width="403" BorderBrush="Black" BorderThickness="1" HorizontalContentAlignment="Center" OpacityMask="Black"/>
+        <Label Name="Lbl_filename" Content="Filename" HorizontalAlignment="Left" Margin="355,482,0,0" VerticalAlignment="Top" Width="291" OpacityMask="Black"/>
+        <Label x:Name="Lbl_copyPath" Content="CopyPath" HorizontalAlignment="Left" Margin="355,513,0,0" VerticalAlignment="Top" Width="291" OpacityMask="Black"/>
+        <Label x:Name="Lbl_ipadd" Content="IP Address" HorizontalAlignment="Left" Margin="355,544,0,0" VerticalAlignment="Top" Width="291" OpacityMask="Black"/>
+        <Label x:Name="Lbl_backupschedule" Content="Backup Schedule" HorizontalAlignment="Left" Margin="791,576,0,0" VerticalAlignment="Top" Width="291" OpacityMask="Black"/>
+        <Button x:Name="Btn_back" Content="&lt; " HorizontalAlignment="Left" Margin="485,411,0,0" VerticalAlignment="Top" Width="75" Click="Btn_back_Click" OpacityMask="Black"/>
+        <Button x:Name="Btn_Next" Content=">" HorizontalAlignment="Left" Margin="807,411,0,0" VerticalAlignment="Top" Width="75" Click="Btn_Next_Click" OpacityMask="Black"/>
+        <Button x:Name="Btn_startjob" Content="Start Current Job" HorizontalAlignment="Left" Margin="638,411,0,0" VerticalAlignment="Top" Width="101" Height="20" Click="Btn_startjob_Click" OpacityMask="Black"/>
+        <Label x:Name="Lbl_filename_Copy" Content="Filename" HorizontalAlignment="Left" Margin="245,482,0,0" VerticalAlignment="Top" Width="103" BorderBrush="Black" BorderThickness="1" OpacityMask="Black"/>
+        <Label x:Name="Lbl_copyPath_Copy" Content="CopyPath" HorizontalAlignment="Left" Margin="245,513,0,0" VerticalAlignment="Top" Width="103" BorderBrush="Black" BorderThickness="1" OpacityMask="Black"/>
+        <Label x:Name="Lbl_ServerCatogry" Content="Server Catogry" HorizontalAlignment="Left" Margin="355,574,0,0" VerticalAlignment="Top" Width="291" OpacityMask="Black"/>
+        <Label x:Name="Lbl_backupschedule_Copy" Content="Backup Schedule" HorizontalAlignment="Left" Margin="679,574,0,0" VerticalAlignment="Top" Width="90" BorderBrush="Black" BorderThickness="1" OpacityMask="Black"/>
+        <Label x:Name="Lbl_filename_Copy1" Content="ID" HorizontalAlignment="Left" Margin="245,451,0,0" VerticalAlignment="Top" Width="103" BorderThickness="1" BorderBrush="Black" OpacityMask="Black"/>
+        <Label x:Name="Lbl_iddb" Content="ID" HorizontalAlignment="Left" Margin="355,451,0,0" VerticalAlignment="Top" Width="291" OpacityMask="Black"/>
+        <Label x:Name="Lbl_ipadd_Copy" Content="IP Address" HorizontalAlignment="Left" Margin="245,544,0,0" VerticalAlignment="Top" Width="103" BorderBrush="Black" BorderThickness="1" OpacityMask="Black"/>
+        <Label x:Name="Lbl_ServerCatogry_Copy" Content="Server Catogry" HorizontalAlignment="Left" Margin="245,574,0,0" VerticalAlignment="Top" Width="103" BorderBrush="Black" BorderThickness="1" OpacityMask="Black"/>
+        <Label x:Name="lbl_pastepath_copy" Content="Copy To" HorizontalAlignment="Left" Margin="679,511,0,0" VerticalAlignment="Top" Width="90" BorderBrush="Black" BorderThickness="1" OpacityMask="Black"/>
+        <Label x:Name="lbl_pastepath" Content="Paste Path" HorizontalAlignment="Left" Margin="791,513,0,0" VerticalAlignment="Top" Width="291" OpacityMask="Black"/>
+        <Label x:Name="Lbl_ServerLoc" Content="Location" HorizontalAlignment="Left" Margin="355,605,0,0" VerticalAlignment="Top" Width="291" OpacityMask="Black"/>
+        <Label x:Name="Lbl_Serverloc" Content="Device Location" HorizontalAlignment="Left" Margin="245,605,0,0" VerticalAlignment="Top" Width="103" BorderBrush="Black" BorderThickness="1" OpacityMask="Black"/>
+        <Label x:Name="Lbl_ipadd_paste" Content="Paste ip add" HorizontalAlignment="Left" Margin="791,544,0,0" VerticalAlignment="Top" Width="291" OpacityMask="Black"/>
+        <Label x:Name="Lbl_ipadd_past_copy" Content="IP Address" HorizontalAlignment="Left" Margin="679,542,0,0" VerticalAlignment="Top" Width="90" BorderBrush="Black" BorderThickness="1" OpacityMask="Black"/>
+        <ComboBox x:Name="BpScheduleCombo" HorizontalAlignment="Left" Margin="619,340,0,0" VerticalAlignment="Top" Width="120">
+            <!--<ComboBoxItem IsSelected="True" Background="GreenYellow" Foreground="Green" Content="Daily" />
+            <ComboBoxItem Background="Aqua" Foreground="Blue" Content="Weekly"/>
+            <ComboBoxItem Background="Bisque " Foreground="Brown" Content="Monthly"/>
+            <ComboBoxItem Background="Black" Foreground="White" Content="Annualy"/>-->
+        </ComboBox>
+        <ComboBox x:Name="comboBox" ItemsSource="{Binding}" HorizontalAlignment="Left" Margin="440,340,0,0" VerticalAlignment="Top" Width="120"/>
+        <DataGrid x:Name="DataGridSql" HorizontalAlignment="Left" Margin="230,40,0,0" VerticalAlignment="Top" Height="160" Width="880">
+            <Button Content="Start"/>
+        </DataGrid>
+
+
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MyDataset" targetNamespace="http://tempuri.org/MyDataset.xsd" xmlns:mstns="http://tempuri.org/MyDataset.xsd" xmlns="http://tempuri.org/MyDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MyDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="MyDataset" msprop:Generator_UserDSName="MyDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Dt_ProdCountVesterType" msprop:Generator_TableClassName="Dt_ProdCountVesterTypeDataTable" msprop:Generator_RowEvArgName="Dt_ProdCountVesterTypeRowChangeEvent" msprop:Generator_TableVarName="tableDt_ProdCountVesterType" msprop:Generator_TablePropName="Dt_ProdCountVesterType" msprop:Generator_RowDeletingName="Dt_ProdCountVesterTypeRowDeleting" msprop:Generator_RowChangingName="Dt_ProdCountVesterTypeRowChanging" msprop:Generator_RowDeletedName="Dt_ProdCountVesterTypeRowDeleted" msprop:Generator_RowEvHandlerName="Dt_ProdCountVesterTypeRowChangeEventHandler" msprop:Generator_UserTableName="Dt_ProdCountVesterType" msprop:Generator_RowChangedName="Dt_ProdCountVesterTypeRowChanged" msprop:Generator_RowClassName="Dt_ProdCountVesterTypeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="invoicedate" msprop:Generator_ColumnVarNameInTable="columninvoicedate" msprop:Generator_ColumnPropNameInRow="invoicedate" msprop:Generator_ColumnPropNameInTable="invoicedateColumn" msprop:Generator_UserColumnName="invoicedate" type="xs:string" minOccurs="0" />
+              <xs:element name="InvoiceID" msprop:Generator_ColumnVarNameInTable="columnInvoiceID" msprop:Generator_ColumnPropNameInRow="InvoiceID" msprop:Generator_ColumnPropNameInTable="InvoiceIDColumn" msprop:Generator_UserColumnName="InvoiceID" type="xs:string" minOccurs="0" />
+              <xs:element name="itemDescription" msprop:Generator_ColumnVarNameInTable="columnitemDescription" msprop:Generator_ColumnPropNameInRow="itemDescription" msprop:Generator_ColumnPropNameInTable="itemDescriptionColumn" msprop:Generator_UserColumnName="itemDescription" type="xs:string" minOccurs="0" />
+              <xs:element name="itemQty" msprop:Generator_ColumnVarNameInTable="columnitemQty" msprop:Generator_ColumnPropNameInRow="itemQty" msprop:Generator_ColumnPropNameInTable="itemQtyColumn" msprop:Generator_UserColumnName="itemQty" type="xs:string" minOccurs="0" />
+              <xs:element name="VesterType" msprop:Generator_ColumnVarNameInTable="columnVesterType" msprop:Generator_ColumnPropNameInRow="VesterType" msprop:Generator_ColumnPropNameInTable="VesterTypeColumn" msprop:Generator_UserColumnName="VesterType" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

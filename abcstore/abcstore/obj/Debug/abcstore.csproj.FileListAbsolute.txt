@@ -1,0 +1,215 @@
+D:\f\my project\abcstore\abcstore\bin\Debug\abcstore.exe
+D:\f\my project\abc store\abcstore\abcstore\bin\Debug\abcstore.exe.config
+D:\f\my project\abc store\abcstore\abcstore\obj\Debug\abcstore.exe
+D:\f\my project\abc store\abcstore\abcstore\obj\Debug\abcstore.pdb
+D:\f\my project\abc store\abcstore\abcstore\bin\Debug\abcstore.exe
+D:\f\my project\abc store\abcstore\abcstore\bin\Debug\abcstore.pdb
+D:\f\my project\abc store\abcstore\abcstore\obj\Debug\MainWindow.baml
+D:\f\my project\abc store\abcstore\abcstore\obj\Debug\MainWindow.g.cs
+D:\f\my project\abc store\abcstore\abcstore\obj\Debug\App.g.cs
+D:\f\my project\abc store\abcstore\abcstore\obj\Debug\abcstore_MarkupCompile.cache
+D:\f\my project\abc store\abcstore\abcstore\obj\Debug\abcstore.g.resources
+D:\f\my project\abc store\abcstore\abcstore\obj\Debug\abcstore.Properties.Resources.resources
+D:\f\my project\abc store\abcstore\abcstore\obj\Debug\abcstore.csproj.GenerateResource.Cache
+D:\f\my project\abc store\abcstore\abcstore\obj\Debug\abcstore.Mainform.resources
+D:\f\my project\abc store\abcstore\abcstore\obj\Debug\abcstore.adminform.resources
+D:\f\my project\abc store\abcstore\abcstore\obj\Debug\abcstore.Productform.resources
+D:\f\my project\abc store\abcstore\abcstore\obj\Debug\abcstore.Stockupdateform.resources
+D:\f\my project\abc store\abcstore\abcstore\bin\Debug\System.Threading.dll
+D:\f\my project\abc store\abcstore\abcstore\obj\Debug\abcstore.addproductform.resources
+D:\f\my project\abc store\abcstore\abcstore\obj\Debug\abcstore.searchrecordfm.resources
+D:\f\my project\abc store\abcstore\abcstore\obj\Debug\abcstore.managerform.resources
+D:\f\my project\abc store\abcstore\abcstore\obj\Debug\abcstore.csprojResolveAssemblyReference.cache
+D:\f\my project\abcstore\abcstore\bin\Debug\abcstore.exe.config
+D:\f\my project\abcstore\abcstore\bin\Debug\abcstore.pdb
+D:\f\my project\abcstore\abcstore\obj\Debug\MainWindow.baml
+D:\f\my project\abcstore\abcstore\obj\Debug\MainWindow.g.cs
+D:\f\my project\abcstore\abcstore\obj\Debug\App.g.cs
+D:\f\my project\abcstore\abcstore\obj\Debug\abcstore_MarkupCompile.cache
+D:\f\my project\abcstore\abcstore\obj\Debug\abcstore.g.resources
+D:\f\my project\abcstore\abcstore\obj\Debug\abcstore.addproductform.resources
+D:\f\my project\abcstore\abcstore\obj\Debug\abcstore.adminform.resources
+D:\f\my project\abcstore\abcstore\obj\Debug\abcstore.Mainform.resources
+D:\f\my project\abcstore\abcstore\obj\Debug\abcstore.managerform.resources
+D:\f\my project\abcstore\abcstore\obj\Debug\abcstore.Productform.resources
+D:\f\my project\abcstore\abcstore\obj\Debug\abcstore.Properties.Resources.resources
+D:\f\my project\abcstore\abcstore\obj\Debug\abcstore.ReveiwBillForm.resources
+D:\f\my project\abcstore\abcstore\obj\Debug\abcstore.searchrecordfm.resources
+D:\f\my project\abcstore\abcstore\obj\Debug\abcstore.Stockupdateform.resources
+D:\f\my project\abcstore\abcstore\obj\Debug\abcstore.csproj.GenerateResource.Cache
+D:\f\my project\abcstore\abcstore\obj\Debug\abcstore.exe
+D:\f\my project\abcstore\abcstore\obj\Debug\abcstore.pdb
+D:\f\my project\abcstore\abcstore\obj\Debug\abcstore.csprojResolveAssemblyReference.cache
+D:\f\my project\abcstore - backup21-07-2017\abcstore\bin\Debug\abcstore.exe.config
+D:\f\my project\abcstore - backup21-07-2017\abcstore\obj\Debug\abcstore.exe
+D:\f\my project\abcstore - backup21-07-2017\abcstore\obj\Debug\abcstore.pdb
+D:\f\my project\abcstore -\abcstore\bin\Debug\abcstore.exe.config
+D:\f\my project\abcstore -\abcstore\obj\Debug\abcstore.exe
+D:\f\my project\abcstore -\abcstore\obj\Debug\abcstore.pdb
+D:\f\my project\abcstore -\abcstore\bin\Debug\abcstore.exe
+D:\f\my project\abcstore -\abcstore\bin\Debug\abcstore.pdb
+D:\f\my project\abcstore -\abcstore\obj\Debug\MainWindow.baml
+D:\f\my project\abcstore -\abcstore\obj\Debug\MainWindow.g.cs
+D:\f\my project\abcstore -\abcstore\obj\Debug\App.g.cs
+D:\f\my project\abcstore -\abcstore\obj\Debug\abcstore_MarkupCompile.cache
+D:\f\my project\abcstore -\abcstore\obj\Debug\abcstore.g.resources
+D:\f\my project\abcstore -\abcstore\obj\Debug\abcstore.addproductform.resources
+D:\f\my project\abcstore -\abcstore\obj\Debug\abcstore.adminform.resources
+D:\f\my project\abcstore -\abcstore\obj\Debug\abcstore.Mainform.resources
+D:\f\my project\abcstore -\abcstore\obj\Debug\abcstore.managerform.resources
+D:\f\my project\abcstore -\abcstore\obj\Debug\abcstore.Productform.resources
+D:\f\my project\abcstore -\abcstore\obj\Debug\abcstore.Properties.Resources.resources
+D:\f\my project\abcstore -\abcstore\obj\Debug\abcstore.ReveiwBillForm.resources
+D:\f\my project\abcstore -\abcstore\obj\Debug\abcstore.searchrecordfm.resources
+D:\f\my project\abcstore -\abcstore\obj\Debug\abcstore.Stockupdateform.resources
+D:\f\my project\abcstore -\abcstore\obj\Debug\abcstore.csproj.GenerateResource.Cache
+D:\f\my project\abcstore -\abcstore\obj\Debug\abcstore.ownerform.resources
+E:\abcstore -\abcstore\bin\Debug\abcstore.exe.config
+E:\abcstore -\abcstore\bin\Debug\abcstore.exe
+E:\abcstore -\abcstore\bin\Debug\abcstore.pdb
+E:\abcstore -\abcstore\obj\Debug\MainWindow.baml
+E:\abcstore -\abcstore\obj\Debug\MainWindow.g.cs
+E:\abcstore -\abcstore\obj\Debug\App.g.cs
+E:\abcstore -\abcstore\obj\Debug\abcstore_MarkupCompile.cache
+E:\abcstore -\abcstore\obj\Debug\abcstore.g.resources
+E:\abcstore -\abcstore\obj\Debug\abcstore.addproductform.resources
+E:\abcstore -\abcstore\obj\Debug\abcstore.adminform.resources
+E:\abcstore -\abcstore\obj\Debug\abcstore.Mainform.resources
+E:\abcstore -\abcstore\obj\Debug\abcstore.managerform.resources
+E:\abcstore -\abcstore\obj\Debug\abcstore.ownerform.resources
+E:\abcstore -\abcstore\obj\Debug\abcstore.Productform.resources
+E:\abcstore -\abcstore\obj\Debug\abcstore.Properties.Resources.resources
+E:\abcstore -\abcstore\obj\Debug\abcstore.ReveiwBillForm.resources
+E:\abcstore -\abcstore\obj\Debug\abcstore.searchrecordfm.resources
+E:\abcstore -\abcstore\obj\Debug\abcstore.Stockupdateform.resources
+E:\abcstore -\abcstore\obj\Debug\abcstore.csproj.GenerateResource.Cache
+E:\abcstore -\abcstore\obj\Debug\abcstore.exe
+E:\abcstore -\abcstore\obj\Debug\abcstore.pdb
+D:\f\my project\abcstore -\abcstore\obj\Debug\abcstore.csprojResolveAssemblyReference.cache
+F:\my project\abcstore -\abcstore\bin\Debug\abcstore.exe.config
+F:\my project\abcstore -\abcstore\obj\Debug\abcstore.exe
+F:\my project\abcstore -\abcstore\obj\Debug\abcstore.pdb
+F:\my project\abcstore\abcstore\bin\Debug\abcstore.exe.config
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.exe
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.pdb
+F:\my project\abcstore\abcstore\bin\Debug\abcstore.exe
+F:\my project\abcstore\abcstore\bin\Debug\abcstore.pdb
+F:\my project\abcstore\abcstore\obj\Debug\MainWindow.baml
+F:\my project\abcstore\abcstore\obj\Debug\MainWindow.g.cs
+F:\my project\abcstore\abcstore\obj\Debug\App.g.cs
+F:\my project\abcstore\abcstore\obj\Debug\abcstore_MarkupCompile.cache
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.g.resources
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.addproductform.resources
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.adminform.resources
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.Mainform.resources
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.managerform.resources
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.ownerform.resources
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.Productform.resources
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.profileform.resources
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.Properties.Resources.resources
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.ReveiwBillForm.resources
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.searchrecordfm.resources
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.Stockupdateform.resources
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.csproj.GenerateResource.Cache
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\bin\Debug\abcstore.exe.config
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\bin\Debug\abcstore.exe
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\bin\Debug\abcstore.pdb
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\MainWindow.baml
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\MainWindow.g.cs
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\App.g.cs
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore_MarkupCompile.cache
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.g.resources
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.addproductform.resources
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.adminform.resources
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.managerform.resources
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.ownerform.resources
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.Productform.resources
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.profileform.resources
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.Properties.Resources.resources
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.ReveiwBillForm.resources
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.searchrecordfm.resources
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.smplform.resources
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.Stockupdateform.resources
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.csproj.GenerateResource.Cache
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.exe
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.pdb
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.MainForm.resources
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.Invoiceform.resources
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.Invoiceform.resources
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.Forms.UpdateProductsForm.resources
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.Forms.PurchaseOrderForm.resources
+C:\Users\Muhammad Sohail\Desktop\abcstore\abcstore\obj\Debug\abcstore.Forms.SearchProfileForm.resources
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.Forms.PurchaseOrderForm.resources
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.Forms.SearchProfileForm.resources
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.Forms.UpdateProductsForm.resources
+E:\abcstore\abcstore\obj\Debug\abcstore.csprojResolveAssemblyReference.cache
+E:\abcstore\abcstore\obj\Debug\MainWindow.baml
+E:\abcstore\abcstore\obj\Debug\MainWindow.g.cs
+E:\abcstore\abcstore\obj\Debug\App.g.cs
+E:\abcstore\abcstore\obj\Debug\abcstore_MarkupCompile.cache
+E:\abcstore\abcstore\obj\Debug\abcstore.g.resources
+E:\abcstore\abcstore\obj\Debug\abcstore.addproductform.resources
+E:\abcstore\abcstore\obj\Debug\abcstore.adminform.resources
+E:\abcstore\abcstore\obj\Debug\abcstore.Forms.LedgerForm.resources
+E:\abcstore\abcstore\obj\Debug\abcstore.Forms.OpenPO.resources
+E:\abcstore\abcstore\obj\Debug\abcstore.Forms.PurchaseOrderForm.resources
+E:\abcstore\abcstore\obj\Debug\abcstore.Forms.SearchProfileForm.resources
+E:\abcstore\abcstore\obj\Debug\abcstore.Forms.UpdateProductsForm.resources
+E:\abcstore\abcstore\obj\Debug\abcstore.Invoiceform.resources
+E:\abcstore\abcstore\obj\Debug\abcstore.MainForm.resources
+E:\abcstore\abcstore\obj\Debug\abcstore.managerform.resources
+E:\abcstore\abcstore\obj\Debug\abcstore.ownerform.resources
+E:\abcstore\abcstore\obj\Debug\abcstore.Productform.resources
+E:\abcstore\abcstore\obj\Debug\abcstore.profileform.resources
+E:\abcstore\abcstore\obj\Debug\abcstore.Properties.Resources.resources
+E:\abcstore\abcstore\obj\Debug\abcstore.ReveiwBillForm.resources
+E:\abcstore\abcstore\obj\Debug\abcstore.searchrecordfm.resources
+E:\abcstore\abcstore\obj\Debug\abcstore.Stockupdateform.resources
+E:\abcstore\abcstore\obj\Debug\abcstore.csproj.GenerateResource.Cache
+E:\abcstore\abcstore\bin\Debug\abcstore.exe.config
+E:\abcstore\abcstore\bin\Debug\abcstore.exe
+E:\abcstore\abcstore\bin\Debug\abcstore.pdb
+E:\abcstore\abcstore\obj\Debug\abcstore.exe
+E:\abcstore\abcstore\obj\Debug\abcstore.pdb
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.Forms.LedgerForm.resources
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.Forms.OpenPO.resources
+E:\abcstore\abcstore\obj\Debug\LoginWindow.baml
+E:\abcstore\abcstore\obj\Debug\LoginWindow.g.cs
+F:\my project\abcstore\abcstore\obj\Debug\LoginWindow.baml
+F:\my project\abcstore\abcstore\obj\Debug\LoginWindow.g.cs
+F:\my project\abcstore\abcstore\obj\Debug\abcstore.csprojResolveAssemblyReference.cache
+E:\my project\abcstore\abcstore\obj\Debug\LoginWindow.baml
+E:\my project\abcstore\abcstore\obj\Debug\MainWindow.baml
+E:\my project\abcstore\abcstore\obj\Debug\LoginWindow.g.cs
+E:\my project\abcstore\abcstore\obj\Debug\MainWindow.g.cs
+E:\my project\abcstore\abcstore\obj\Debug\App.g.cs
+E:\my project\abcstore\abcstore\obj\Debug\abcstore_MarkupCompile.cache
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.g.resources
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.addproductform.resources
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.adminform.resources
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.Forms.LedgerForm.resources
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.ManageRights.resources
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.Forms.OpenPO.resources
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.Forms.PurchaseOrderForm.resources
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.Forms.SearchProfileForm.resources
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.Forms.UpdateProductsForm.resources
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.Invoiceform.resources
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.MainForm.resources
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.managerform.resources
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.ownerform.resources
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.Productform.resources
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.profileform.resources
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.Properties.Resources.resources
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.ReveiwBillForm.resources
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.searchrecordfm.resources
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.Stockupdateform.resources
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.csproj.GenerateResource.Cache
+E:\my project\abcstore\abcstore\bin\Debug\abcstore.exe.config
+E:\my project\abcstore\abcstore\bin\Debug\abcstore.exe
+E:\my project\abcstore\abcstore\bin\Debug\abcstore.pdb
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.exe
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.pdb
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.csprojResolveAssemblyReference.cache
+E:\my project\abcstore\abcstore\obj\Debug\abcstore.Forms.ChangePassword.resources
+E:\my project\abcstore\abcstore\obj\Debug\UrduTextBoxDemo.UrduTextBox.resources

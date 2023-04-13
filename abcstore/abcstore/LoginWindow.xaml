@@ -1,0 +1,12 @@
+﻿<Window x:Class="abcstore.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login" Height="300" Width="300">
+    <StackPanel>
+        <Label Name="login" Content="Login" Foreground="Black" HorizontalAlignment="Center" FontSize="12" ></Label>
+        <Label Content="Username" FontSize="12"></Label>
+        <TextBox Name="Usernametextbox" Foreground="Black " FontFamily="arial" FontSize="18"></TextBox>
+        <Label Content="Password" FontSize="12"></Label>
+        <PasswordBox Name="Passwordtextbox" Foreground="Black " FontFamily="arial" FontSize="18"></PasswordBox>
+    </StackPanel>
+</Window>

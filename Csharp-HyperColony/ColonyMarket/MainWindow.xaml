@@ -1,0 +1,193 @@
+﻿<Window x:Class="ColonyMarket.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ColonyMarket"
+        mc:Ignorable="d"
+        Title="Scan Marketing" Height="350" Width="725" WindowState="Maximized" Icon="img/H.jpg" Loaded="Window_Loaded" Closing="Window_Closing" Foreground="#FFEEAE51">
+    <Window.Background>
+        <SolidColorBrush Color="#FF314F4F"/>
+    </Window.Background>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="181*"/>
+            <ColumnDefinition Width="536*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.ColumnSpan="2">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Background="White" Margin="0,-2.642,0,2.642">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="67*"/>
+                    <ColumnDefinition Width="650*"/>
+                </Grid.ColumnDefinitions>
+                <Label Name="lblProjectname"  HorizontalAlignment="Center" Foreground="Crimson" Content="" FontSize="20" Grid.Column="1" Margin="286.179,0,353.5,0" ></Label>
+                <Label  Grid.Row="0" Name="lblProjectID" Visibility="Hidden" Content="" FontSize="12" Grid.ColumnSpan="2"></Label>
+            </Grid>
+            <!--<Label Grid.Row="0" Name="lblMyCompany" HorizontalAlignment="Center" VerticalAlignment="Center" Content=" Scan Marketing" FontSize="20"></Label>-->
+            <Border Grid.Row="1" BorderThickness="1,1,1,0" BorderBrush="Blue">
+
+                <Grid >
+                    <WrapPanel Background="#FF0B6363" >
+                        <Button Name="AddProject" Margin="5,0,5,0"  ToolTip="Project Information" HorizontalAlignment="Left" Click="AddProject_OnClick" Width="45" Height="50" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}" Foreground="{x:Null}" BorderThickness="5">
+                            <Button.Background>
+                                <ImageBrush ImageSource="img/addImage.png"/>
+                            </Button.Background>
+                        </Button>
+                        <Button Name="btnOpenReports" Margin="5,0,5,0"  ToolTip="Reports" HorizontalAlignment="Left" Click="BtnReports_OnClick" Width="45" Height="50" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                            <Button.Background>
+                                <ImageBrush ImageSource="Icons/Reports.png"/>
+                            </Button.Background>
+                        </Button>
+                        <Button Name="btnAgents" Margin="5,0,5,0"  ToolTip="Agent" HorizontalAlignment="Left" Click="BtnAgents_OnClick" Width="45" Height="50" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                            <Button.Background>
+                                <ImageBrush ImageSource="Icons/Agent.png"/>
+                            </Button.Background>
+                        </Button>
+                        <Button Name="btnLedger" ToolTip="Ledger" Margin="5,0,5,0" HorizontalAlignment="Left" Click="BtnLedger_OnClick" Width="45" Height="50" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                            <Button.Background>
+                                <ImageBrush ImageSource="Icons/Ledger.png"/>
+                            </Button.Background>
+                        </Button>
+                        <Button Name="btnchangepassword" ToolTip="My Profile" Margin="5,0,5,0" HorizontalAlignment="Left" Click="Btnchangepassword_OnClick" Width="45" Height="50" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                            <Button.Background>
+                                <ImageBrush ImageSource="icons/profile.png"/>
+                            </Button.Background>
+                        </Button>
+                        <Button Name="btnSTatics" ToolTip="Statetistics" Margin="5,0,5,0" HorizontalAlignment="Left" Click="BtnSTatics_OnClick" Width="45" Height="50" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                            <Button.Background>
+                                <ImageBrush ImageSource="Icons/Statsitcs.png"/>
+                            </Button.Background>
+                        </Button>
+                        <Button x:Name="btnChangeDB" ToolTip="Change Prject" Margin="5,0,5,0" HorizontalAlignment="Left" Click="btnChangeDB_Click" Width="45" Height="50" BorderBrush="{x:Null}" Style="{DynamicResource ButtonWithNoMouseOver}">
+                            <Button.Background>
+                                <ImageBrush ImageSource="Icons/Change.png"/>
+                            </Button.Background>
+                        </Button>
+                    </WrapPanel>
+                </Grid>
+            </Border>
+            <Border Grid.Row="2" BorderBrush="Blue" BorderThickness="1,1,1,0">
+                <Grid >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="220"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="300"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Content="Project Detail" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15" Foreground="#FF3DFFD3" FontWeight="Bold"></Label>
+                    <Label Grid.Column="1" Content="Map" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15" Foreground="#FF40FFF7" FontWeight="Bold"></Label>
+                    <Label Grid.Column="2" Content="Plot Detail" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15" Foreground="#FF09FFFF" FontWeight="Bold"></Label>
+
+                </Grid>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="1" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="220"></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition Width="300"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Grid >
+                    <StackPanel>
+                        <!--<TreeView Loaded="TreeView1_OnLoaded" Background="Transparent" FontSize="15" SelectedItemChanged="TreeView1_OnSelectedItemChanged"  Name="TreeView1"  >
+                        </TreeView>-->
+                        <Label  Content="Owners" Margin="0,5" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15" Foreground="#FF00FDFD" FontWeight="Bold"></Label>
+                        <ListBox Name="lboxOwners" Margin="0,5" FontSize="15" Background="Transparent" Foreground="White"></ListBox>
+                        <Label  Content="Change Plot Status" Margin="0,5" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15" Foreground="#FF00FDFD" FontWeight="Bold"></Label>
+                        <RadioButton Name="rbtnforsale" Visibility="Hidden" FontSize="15" Content="For Sale" Checked="ToggleButton_OnChecked"></RadioButton>
+                        <RadioButton Name="rbtnNotForSale" Visibility="Hidden" FontSize="15" Content="Not For Sale" Checked="RbtnNotForSale_OnChecked"></RadioButton>
+                    </StackPanel>
+
+
+                </Grid>
+            </Border>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Border Grid.Row="0" BorderBrush="Black" BorderThickness="1">
+                    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                        <Grid  Name="PlotGrid" ShowGridLines="True" >
+                        </Grid>
+                    </ScrollViewer>
+                </Border>
+                <Border Grid.Row="1" BorderBrush="Black" BorderThickness="1">
+                    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                        <Grid  Name="ShopGrid" ShowGridLines="True" >
+                        </Grid>
+                    </ScrollViewer>
+                </Border>
+            </Grid>
+
+            <Border Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Grid >
+                    <StackPanel>
+                        <WrapPanel  VerticalAlignment="Center" HorizontalAlignment="Center">
+                            <Label Name="lblplotName" Content="" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="15"></Label>
+                        </WrapPanel>
+
+                        <WrapPanel Background="#FF51B434">
+                            <Label Content="Sale #" FontSize="13" Foreground="White" ></Label>
+                            <Label Name="lblSaleID" Content="" FontSize="15"></Label>
+                        </WrapPanel>
+                        <WrapPanel Background="#FF2760A4">
+                            <Label Content="Dimension : "   FontSize="15" Foreground="White"></Label>
+                            <Label Name="lblplotDimension" Content="" FontSize="15"></Label>
+                        </WrapPanel>
+                        <WrapPanel Background="#FF51B434">
+                            <Label Content="Area : " FontSize="15" Foreground="White"></Label>
+                            <Label Name="lblplotArea" Content="" FontSize="15"></Label>
+                        </WrapPanel>
+                        <WrapPanel Visibility="Hidden">
+                            <Label Content="Plot #" FontSize="13" ></Label>
+                            <Label Name="lblplotID" Content="" FontSize="15"></Label>
+                        </WrapPanel>
+                        <!--<Label Name="lblownerdetailtitle"  Content="Plot Owner Detail" Margin="0,5" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15" Foreground="Maroon" FontWeight="Bold"></Label>-->
+                        <Label Name="lblOwnerName" FontSize="15" Foreground="White"></Label>
+                        <!--<ListBox  Name="lboxPlotOwner" Margin="0,5" FontSize="15" Background="Transparent"></ListBox>-->
+                        <Button Content="Sold" Click="ButtonBase_OnClick" FontSize="15" Background="DarkSlateGray" Foreground="#FF24F140"></Button>
+                        <!--<Button Content="Reports" Name="btnReports" Click="" FontSize="15"></Button>-->
+                        <Button Content="Refresh" Name="btnrefresh" Click="Btnrefresh_OnClick" FontSize="15" RenderTransformOrigin="0.53,-3.998" Background="DarkSlateGray" Foreground="#FF2AE644"></Button>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="2" Grid.ColumnSpan="2">
+            <StackPanel>
+                <WrapPanel>
+                    <Label Content="Project Detail: " FontWeight="Bold" Foreground="#FF16E8E8"></Label>
+                    <Label Content="Sold" FontWeight="Bold" Foreground="#FF13F9F9"></Label>
+                    <Label Background="Yellow" Name="lblSoldStatus" Width="50" Margin="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Label>
+                    <Label Content="Installment Process" FontWeight="Bold" Foreground="#FF13F9F9"></Label>
+                    <Label Background="LawnGreen" Name="lblinInstallStatus" Width="50" Margin="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Label>
+                    <!--<Rectangle Width="20" Height="20" Fill="Yellow" ></Rectangle>-->
+                    <Label Content="For Sale" FontWeight="Bold" Foreground="#FF13F9F9"></Label>
+                    <Label Background="OrangeRed" Name="lblForSaleStatus" Width="50" Margin="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Label>
+                    <!--<Rectangle Width="20" Height="20" Fill="OrangeRed"></Rectangle>-->
+
+                    <!--<Rectangle Width="20" Height="20" Fill="LawnGreen"></Rectangle>-->
+                    <Label Content="Not for Sale" FontWeight="Bold" Foreground="#FF13F9F9"></Label>
+                    <Label Background="DeepSkyBlue" Name="lblnotForSaleStatus" Width="50" Margin="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Label>
+                    <Label Content="No# of Shops" FontWeight="Bold" Foreground="#FF13F9F9"></Label>
+                    <Label Background="Pink" Name="lblnoForShops" Width="50" Margin="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Label>
+                    <!--<Rectangle Width="20" Height="20" Fill="LightGray"></Rectangle>-->
+                </WrapPanel>
+                <Label Name="lblErrorMsg" Foreground="White"></Label>
+
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

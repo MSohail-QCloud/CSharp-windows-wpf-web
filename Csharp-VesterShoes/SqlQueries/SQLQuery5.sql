@@ -1,0 +1,1 @@
+select o.Invoiceid,t.VesterType,d.itemQty from tblOrders o,tblItems i,  tblVesterType t, tblMasterInvoice m, tblDetailInvoice d where o.ItemsID=i.ItemsID and o.orderdetailID=d.orderdetailID and d.InvoiceID=m.InvoiceID and  i.VesterTypeID=t.VesterTypeID and m.DeleteBill=0  and o.Invoiceid is not null --order by o.Invoiceid
